@@ -1,0 +1,62 @@
+db.proveidor.insert({
+    "_id": ObjectId("a4fb09b76f2f0aec5bf9f4a1"),
+    "nom": "Lorem",
+    "adreca": {
+        "carrer": "Lorem",
+        "numero": "Lorem",
+        "pis": "Lorem",
+        "porta": "Lorem",
+        "ciutat": "Lorem",
+        "codiPostal": "Lorem",
+        "pais": "Lorem"
+    },
+    "telefon": "Lorem",
+    "fax": "Lorem",
+    "nif": "Lorem"
+});
+
+db.ulleres.insert({
+    "_id": ObjectId("0ad45a7bbbcabafd3bdec0cf"),
+    "marca": ObjectId("fbe9796fe85a6308c19f95e7"),
+    "graduacio": {
+        "izquierdo": -8,
+        "derecho": 26
+    },
+    "tipusMuntura": "Lorem",
+    "colorMuntura": "Lorem",
+    "colorVidre": "Lorem",
+    "preu": 43,
+    "empleat": ObjectId("a9bb5dca9da91344e4ed44ce"),
+    "client": ObjectId("aa7dcc95a120729b7d6bdfa4")
+});
+
+db.clients.insert({
+    "_id": ObjectId("bbb708c0f0ead199fc8fe4df"),
+    "nom": "Lorem",
+    "adreca": {
+        "carrer": "Lorem",
+        "numero": "Lorem",
+        "pis": "Lorem",
+        "porta": "Lorem",
+        "ciutat": "Lorem",
+        "codiPostal": "Lorem",
+        "pais": "Lorem"
+    },
+    "telefono": "Lorem",
+    "email": "Lorem",
+    "dataRegistre": ISODate("2016-04-08T15:06:21.595Z"),
+    "recomanat": ObjectId("8f4f32ecce51f23a1ccff1b1")
+});
+
+db.empleat.insert({
+    "_id": ObjectId("3c82ebdf1c4adbaf050f21aa"),
+    "nom": "Lorem",
+    "telefono": "Lorem",
+    "email": "Lorem"
+});
+
+db.marca.insert({
+    "_id": ObjectId("dc9bd0a9ddaae5fcf2011af5"),
+    "nom": "Lorem",
+    "proveidor": "Lorem"
+});

@@ -1,0 +1,1433 @@
+{
+    "modelName": "pizzeria",
+    "collections": [
+        {
+            "collectionName": "client",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": true,
+                    "code": "_id",
+                    "required": true,
+                    "GUID": "9654d00c-7478-4754-ace0-1443ac43ae84",
+                    "childRelationships": [
+                        "135ec785-48c9-4890-b25d-e79076b10a1c",
+                        "0dc7677d-6c5e-4e76-aa0a-d8d92bb0c1e4"
+                    ],
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "sources": [
+                        {
+                            "GUID": "ee629a19-0139-4d15-b826-866d3e276a4d",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "client_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "client",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "nom",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 60,
+                    "primaryKey": false,
+                    "GUID": "8f94fa25-04ce-4be2-b49b-887304776d93",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "2ba163d7-3029-4923-abe5-ae394b94c674",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "nom",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "client",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "cognoms",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 100,
+                    "primaryKey": false,
+                    "GUID": "5e5012ed-9047-4757-9ef9-67735d3144ba",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "e414a2a8-4db1-4d0e-b6ff-7bbadeb9767a",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "cognoms",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "client",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "adreca",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "primaryKey": false,
+                    "code": "",
+                    "required": true,
+                    "GUID": "799ec4d2-e87f-49df-a913-d86e3ed99420",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "8d73c8d9-fca5-44a1-8aaa-ce672174afbc",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "adreca",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "client",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "localitat",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 45,
+                    "primaryKey": false,
+                    "GUID": "3414619f-7747-4745-b4d8-885a4a611ef6",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "195b9605-4a91-415b-be6b-cfa88a2bb07d",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "localitat",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "client",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "provincia",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 45,
+                    "primaryKey": false,
+                    "GUID": "a93c673b-07da-426d-a871-c96db99f467a",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "372e94b1-117a-4867-b258-c94d38d315fd",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "provincia",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "client",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "codi_postal",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 10,
+                    "primaryKey": false,
+                    "GUID": "dc7c8ec6-fc1a-4268-8750-7afbd9e64dd4",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "0443ebef-9eb5-4896-b733-4d78c1450bad",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "codi_postal",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "client",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "telefono",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 20,
+                    "primaryKey": false,
+                    "GUID": "ac652e9b-7e09-4b22-bb9a-acd491256f72",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "d923fc5a-405f-4cee-ab8a-bb3180adde6b",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "telefono",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "client",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "1a2d1bdd-d8dd-45fd-b0a9-37a7529d7f67"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "28fad0be-12e4-4985-99ab-e9362423e518",
+            "code": "",
+            "bucketId": "3543916f-71b5-433a-a550-e835661af993",
+            "comments": "",
+            "description": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "botiga",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": true,
+                    "code": "_id",
+                    "required": true,
+                    "GUID": "c2c27f19-fb92-4862-a0de-7454e4229d2e",
+                    "childRelationships": [
+                        "8ee25879-60ed-4a43-9957-01c25e106523",
+                        "b007faf1-971a-4584-94fd-dab6ee43bec4"
+                    ],
+                    "sources": [
+                        {
+                            "GUID": "8ad48f0a-34c5-43bc-bddd-25312ed3b8f6",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "botiga_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "botiga",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ],
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "code": "",
+                    "name": "adreca",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 128,
+                    "primaryKey": false,
+                    "GUID": "078a5d25-08e4-4841-8a4d-16fd7670a82f",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "a155a1d9-c87d-4d77-b0c9-4265dcd7391d",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "adreca",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "botiga",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "codi_postal",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 10,
+                    "primaryKey": false,
+                    "GUID": "e6b0e2bc-8661-4671-8883-cf356a9269fc",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "6e160932-308e-4b88-8db8-569100079acd",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "codi_postal",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "botiga",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "localitat",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 45,
+                    "primaryKey": false,
+                    "GUID": "cbd63155-6756-46ca-aa52-6f7a9c4337ec",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "87c129b6-0401-4089-925f-24e199c8765f",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "localitat",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "botiga",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "provincia",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 45,
+                    "primaryKey": false,
+                    "GUID": "de31c1b0-e1fb-4a7e-ab24-5624f3c4d563",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "fc5a4d97-db0c-4b10-9a8c-18b5b698217e",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "provincia",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "botiga",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "3fef9ba3-0dbc-4846-a037-648fc6687765"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "977d820e-34bc-45b6-bc2c-badebef657db",
+            "code": "",
+            "bucketId": "3543916f-71b5-433a-a550-e835661af993",
+            "comments": "",
+            "description": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "empleat",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": true,
+                    "code": "_id",
+                    "required": true,
+                    "GUID": "47d50740-9ea3-48a9-b4ee-5ae7e3ce1216",
+                    "childRelationships": [
+                        "eac24aec-4ea7-4543-935a-3e4b2d358a81",
+                        "68deb9b6-b94e-4c63-af8b-90f811871a43"
+                    ],
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "sources": [
+                        {
+                            "GUID": "f8fe5b64-6026-4dfc-9606-0bddcf3318f1",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "empleat_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "empleat",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "nom",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 60,
+                    "primaryKey": false,
+                    "GUID": "7bf2a7c6-57a2-422e-8082-7c910a695d34",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "5b5dd233-a918-4569-a52d-8db3ca56136c",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "nom",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "empleat",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "cognoms",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 100,
+                    "primaryKey": false,
+                    "GUID": "dc461931-5017-4b94-a76f-8778d7a4ba40",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "6dafec36-ee36-4cbf-9970-20548352a0c5",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "cognoms",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "empleat",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "nif",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 20,
+                    "primaryKey": false,
+                    "GUID": "cb6d512b-f279-45d1-b9b3-c69e29366737",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "b9ae6907-59cd-423f-b398-f202c892a075",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "nif",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "empleat",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "telefon",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 20,
+                    "primaryKey": false,
+                    "GUID": "d652769b-c40e-4ddf-95ed-ce3d4592dada",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "5812eb0b-2efd-4302-92bd-7538a82bc989",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "telefon",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "empleat",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "cargo",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "primaryKey": false,
+                    "GUID": "680584ad-6cbd-4c8b-9851-b7ec41e4764e",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "982eee57-9617-4c82-a62c-822849bd98e1",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "cargo",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "empleat",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "botiga_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": false,
+                    "code": "",
+                    "required": true,
+                    "GUID": "325a5cc8-fe9c-4d7a-9285-e36a1b3fa8f0",
+                    "sources": [
+                        {
+                            "GUID": "85fec97d-fea1-4ffa-9fe7-813af036f6ca",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "botiga_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "empleat",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ],
+                    "foreignCollection": "977d820e-34bc-45b6-bc2c-badebef657db",
+                    "foreignField": [
+                        "977d820e-34bc-45b6-bc2c-badebef657db",
+                        "c2c27f19-fb92-4862-a0de-7454e4229d2e"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "b007faf1-971a-4584-94fd-dab6ee43bec4",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "d2c67ea6-7196-419b-acbd-dc3f24d74868"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "f76c678a-85a5-4055-81cf-0ab2e3459a33",
+            "code": "",
+            "bucketId": "3543916f-71b5-433a-a550-e835661af993",
+            "comments": "",
+            "description": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "error": {}
+        },
+        {
+            "collectionName": "comanda",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": true,
+                    "code": "_id",
+                    "required": true,
+                    "GUID": "7c0207f8-5b72-486c-9772-cde3678df8fa",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "sources": [
+                        {
+                            "GUID": "47e2aaa7-664b-49fb-857d-02f1225b7c5d",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "comanda_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "comanda",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "client_client_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": false,
+                    "code": "",
+                    "required": true,
+                    "GUID": "f3892c37-c6fe-4286-9289-71980e9f40be",
+                    "sources": [
+                        {
+                            "GUID": "79e89882-19b4-4ad1-a307-4e656b4a087a",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "client_client_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "comanda",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ],
+                    "foreignCollection": "28fad0be-12e4-4985-99ab-e9362423e518",
+                    "foreignField": [
+                        "28fad0be-12e4-4985-99ab-e9362423e518",
+                        "9654d00c-7478-4754-ace0-1443ac43ae84"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "0dc7677d-6c5e-4e76-aa0a-d8d92bb0c1e4",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "data_registre",
+                    "isActivated": true,
+                    "type": "date",
+                    "primaryKey": false,
+                    "required": true,
+                    "default": "",
+                    "GUID": "41c25420-21a0-463a-800f-ce21b6f22df3",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "adc95e88-65b4-4cdc-bbd8-7056b07a662a",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "data_registre",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "comanda",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "tipo",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "primaryKey": false,
+                    "GUID": "7d1884a0-89c0-46a0-8367-e2bb4335157b",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "416a88ae-50b1-4bcc-8b51-7d82a3279c1e",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "tipo",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "comanda",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "repartidor_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": false,
+                    "code": "",
+                    "required": false,
+                    "GUID": "6a88fcf7-2319-4b2b-8614-8dcb93e1876c",
+                    "sources": [
+                        {
+                            "GUID": "586f9611-f54d-459f-b478-b2b2ecfdc235",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "repartidor_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "comanda",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ],
+                    "foreignCollection": "f76c678a-85a5-4055-81cf-0ab2e3459a33",
+                    "foreignField": [
+                        "f76c678a-85a5-4055-81cf-0ab2e3459a33",
+                        "47d50740-9ea3-48a9-b4ee-5ae7e3ce1216"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "68deb9b6-b94e-4c63-af8b-90f811871a43",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "data_lliurament",
+                    "isActivated": true,
+                    "type": "date",
+                    "primaryKey": false,
+                    "required": false,
+                    "default": "",
+                    "GUID": "af7bc02d-c29e-4680-99f9-c8d80d69dd88",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "dbc3d67f-e718-4f46-ac7a-a8acaec757cd",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "data_lliurament",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "comanda",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "productes",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "array",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "document",
+                            "properties": [
+                                {
+                                    "name": "producte_id",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "objectId",
+                                    "code": "producte_id",
+                                    "GUID": "53c1d5d9-48fe-43d2-84f4-9bc32626a57f",
+                                    "foreignCollection": "671bcb1a-5dae-4284-81b5-97f4c1cc304f",
+                                    "foreignField": [
+                                        "671bcb1a-5dae-4284-81b5-97f4c1cc304f",
+                                        "28cd66ca-1c29-4dec-9f1c-2f85d6cd9b08"
+                                    ],
+                                    "relationshipType": "Foreign Key",
+                                    "parentRelationship": "15515c55-9b8b-4a30-944e-3f58202c8be2",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "cantidad",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "numeric",
+                                    "GUID": "6964d838-d29d-4fa1-8ec7-d19c5b44f161",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": false,
+                            "GUID": "b02746da-a2d7-4be5-a3a9-fa60c82c3581",
+                            "arrayItem": true,
+                            "arrayParentType": "array",
+                            "displayName": "lista productos",
+                            "error": {}
+                        }
+                    ],
+                    "additionalItems": true,
+                    "code": "products",
+                    "GUID": "00e99b6e-4cba-47d2-b72c-6dfc31de21e8",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "3359a274-9c0c-4e5b-80de-7301b1a37c54"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "6ea24c2f-65ff-45e5-8d5d-78c24625915f",
+            "code": "",
+            "bucketId": "3543916f-71b5-433a-a550-e835661af993",
+            "comments": "",
+            "description": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "error": {}
+        },
+        {
+            "collectionName": "categoria_pizza",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": true,
+                    "code": "_id",
+                    "required": true,
+                    "GUID": "f27b901c-c671-48dc-9fcd-4ffeee6c1080",
+                    "childRelationships": [
+                        "2c5d18c6-8cd5-4fd9-8f53-d142dbf7d504",
+                        "8c746e04-3c6a-4f92-9c41-c2ce13089034"
+                    ],
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "sources": [
+                        {
+                            "GUID": "11a9577e-d329-4271-a981-7fe2c1871fe9",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "categoria_pizza_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "categoria_pizza",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "nom",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 128,
+                    "primaryKey": false,
+                    "GUID": "4fe7c6d4-a024-4533-b69b-4bb71490abec",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "478aee43-c6f3-434a-aca3-9a58053ad3a8",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "nom",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "categoria_pizza",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "affbcffd-266c-43e5-ba70-30def9ba5279"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "e93927f4-d685-4b42-9e92-893eef294105",
+            "code": "",
+            "bucketId": "3543916f-71b5-433a-a550-e835661af993",
+            "comments": "",
+            "description": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "producte",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": true,
+                    "code": "_id",
+                    "required": true,
+                    "GUID": "28cd66ca-1c29-4dec-9f1c-2f85d6cd9b08",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "sources": [
+                        {
+                            "GUID": "ca62f06a-e98f-4aa1-84fb-950386a74da9",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "producte_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "producte",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ],
+                    "childRelationships": [
+                        "15515c55-9b8b-4a30-944e-3f58202c8be2"
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "nom",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 45,
+                    "primaryKey": false,
+                    "GUID": "27e8ebc2-6be9-4b0f-b12c-33284cb7cac2",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "8e71325d-56a2-4431-83e3-987743d14903",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "nom",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "producte",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "descripcio",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": null,
+                    "primaryKey": false,
+                    "GUID": "27f9f2ce-bc42-4778-873c-0922a9ce72f6",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "bf3ef9ce-a5bc-43d2-9a6b-9a93868be515",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "descripcio",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "producte",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "imatge",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "maxLength": 128,
+                    "primaryKey": false,
+                    "GUID": "7278d8fe-39d9-4d97-8eea-c0f2dd22b49c",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "ec868b5f-bf5b-4ab4-b462-496416f2d436",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "imatge",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "producte",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "preu",
+                    "isActivated": true,
+                    "type": "numeric",
+                    "required": true,
+                    "primaryKey": false,
+                    "GUID": "693a24b4-4fb4-4006-a594-04c30e970609",
+                    "sources": [
+                        {
+                            "GUID": "44e54765-aa36-43b8-a58e-45f750387a8c",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "preu",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "producte",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "tipo",
+                    "isActivated": true,
+                    "type": "string",
+                    "required": true,
+                    "primaryKey": false,
+                    "GUID": "c09cf4da-ef12-4e4c-938b-a19f0eec3ec0",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "d535e23d-43bc-4ad5-ad00-4cc35f24e0cc",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "tipo",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "producte",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "categoria_pizza_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": false,
+                    "code": "",
+                    "required": false,
+                    "GUID": "29039f7f-d89b-45bc-b73c-a8d991520192",
+                    "sources": [
+                        {
+                            "GUID": "95a31469-b144-4a6e-915c-da49cf2ed8bd",
+                            "lineageSourceGUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+                            "lineageSourceAttrBusName": "categoria_pizza_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "producte",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "New_Database",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ],
+                    "foreignCollection": "e93927f4-d685-4b42-9e92-893eef294105",
+                    "foreignField": [
+                        "e93927f4-d685-4b42-9e92-893eef294105",
+                        "f27b901c-c671-48dc-9fcd-4ffeee6c1080"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "8c746e04-3c6a-4f92-9c41-c2ce13089034",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b2371e57-9b53-4ca2-ab49-2a50fa0ebcdc"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "671bcb1a-5dae-4284-81b5-97f4c1cc304f",
+            "code": "",
+            "bucketId": "3543916f-71b5-433a-a550-e835661af993",
+            "comments": "",
+            "description": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "error": {}
+        }
+    ],
+    "buckets": [
+        {
+            "name": "Pizzeria",
+            "type": "bucket",
+            "collectionIds": [
+                "28fad0be-12e4-4985-99ab-e9362423e518",
+                "977d820e-34bc-45b6-bc2c-badebef657db",
+                "f76c678a-85a5-4055-81cf-0ab2e3459a33",
+                "6ea24c2f-65ff-45e5-8d5d-78c24625915f",
+                "e93927f4-d685-4b42-9e92-893eef294105",
+                "671bcb1a-5dae-4284-81b5-97f4c1cc304f"
+            ],
+            "backgroundColor": {
+                "r": 254,
+                "g": 193,
+                "b": 7,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "3543916f-71b5-433a-a550-e835661af993"
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "fk producte.categoria_pizza_id to categoria_pizza._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "e93927f4-d685-4b42-9e92-893eef294105",
+                    "f27b901c-c671-48dc-9fcd-4ffeee6c1080"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "671bcb1a-5dae-4284-81b5-97f4c1cc304f",
+                    "29039f7f-d89b-45bc-b73c-a8d991520192"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "8c746e04-3c6a-4f92-9c41-c2ce13089034",
+            "parentCollection": "e93927f4-d685-4b42-9e92-893eef294105",
+            "childCollection": "671bcb1a-5dae-4284-81b5-97f4c1cc304f"
+        },
+        {
+            "name": "fk comanda.repartidor_id to empleat._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "f76c678a-85a5-4055-81cf-0ab2e3459a33",
+                    "47d50740-9ea3-48a9-b4ee-5ae7e3ce1216"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "6ea24c2f-65ff-45e5-8d5d-78c24625915f",
+                    "6a88fcf7-2319-4b2b-8614-8dcb93e1876c"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "68deb9b6-b94e-4c63-af8b-90f811871a43",
+            "parentCollection": "f76c678a-85a5-4055-81cf-0ab2e3459a33",
+            "childCollection": "6ea24c2f-65ff-45e5-8d5d-78c24625915f"
+        },
+        {
+            "name": "fk comanda.client_client_id to client._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "28fad0be-12e4-4985-99ab-e9362423e518",
+                    "9654d00c-7478-4754-ace0-1443ac43ae84"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "6ea24c2f-65ff-45e5-8d5d-78c24625915f",
+                    "f3892c37-c6fe-4286-9289-71980e9f40be"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "0dc7677d-6c5e-4e76-aa0a-d8d92bb0c1e4",
+            "parentCollection": "28fad0be-12e4-4985-99ab-e9362423e518",
+            "childCollection": "6ea24c2f-65ff-45e5-8d5d-78c24625915f"
+        },
+        {
+            "name": "fk comanda.productes.[0].producte_id to producte._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "671bcb1a-5dae-4284-81b5-97f4c1cc304f",
+                    "28cd66ca-1c29-4dec-9f1c-2f85d6cd9b08"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "6ea24c2f-65ff-45e5-8d5d-78c24625915f",
+                    "00e99b6e-4cba-47d2-b72c-6dfc31de21e8",
+                    "b02746da-a2d7-4be5-a3a9-fa60c82c3581",
+                    "53c1d5d9-48fe-43d2-84f4-9bc32626a57f"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "15515c55-9b8b-4a30-944e-3f58202c8be2",
+            "parentCollection": "671bcb1a-5dae-4284-81b5-97f4c1cc304f",
+            "childCollection": "6ea24c2f-65ff-45e5-8d5d-78c24625915f"
+        },
+        {
+            "name": "fk empleat.botiga_id to botiga._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "977d820e-34bc-45b6-bc2c-badebef657db",
+                    "c2c27f19-fb92-4862-a0de-7454e4229d2e"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "f76c678a-85a5-4055-81cf-0ab2e3459a33",
+                    "325a5cc8-fe9c-4d7a-9285-e36a1b3fa8f0"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "b007faf1-971a-4584-94fd-dab6ee43bec4",
+            "parentCollection": "977d820e-34bc-45b6-bc2c-badebef657db",
+            "childCollection": "f76c678a-85a5-4055-81cf-0ab2e3459a33"
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "fee56219-c053-4810-ae56-eb1a3e866a13": "RE'd from DDL file",
+        "3543916f-71b5-433a-a550-e835661af993": "Pizzeria",
+        "9654d00c-7478-4754-ace0-1443ac43ae84": "_id",
+        "8f94fa25-04ce-4be2-b49b-887304776d93": "nom",
+        "5e5012ed-9047-4757-9ef9-67735d3144ba": "cognoms",
+        "799ec4d2-e87f-49df-a913-d86e3ed99420": "adreca",
+        "3414619f-7747-4745-b4d8-885a4a611ef6": "localitat",
+        "a93c673b-07da-426d-a871-c96db99f467a": "provincia",
+        "dc7c8ec6-fc1a-4268-8750-7afbd9e64dd4": "codi_postal",
+        "ac652e9b-7e09-4b22-bb9a-acd491256f72": "telefono",
+        "28fad0be-12e4-4985-99ab-e9362423e518": "client",
+        "c2c27f19-fb92-4862-a0de-7454e4229d2e": "_id",
+        "078a5d25-08e4-4841-8a4d-16fd7670a82f": "adreca",
+        "e6b0e2bc-8661-4671-8883-cf356a9269fc": "codi_postal",
+        "cbd63155-6756-46ca-aa52-6f7a9c4337ec": "localitat",
+        "de31c1b0-e1fb-4a7e-ab24-5624f3c4d563": "provincia",
+        "977d820e-34bc-45b6-bc2c-badebef657db": "botiga",
+        "47d50740-9ea3-48a9-b4ee-5ae7e3ce1216": "_id",
+        "7bf2a7c6-57a2-422e-8082-7c910a695d34": "nom",
+        "dc461931-5017-4b94-a76f-8778d7a4ba40": "cognoms",
+        "cb6d512b-f279-45d1-b9b3-c69e29366737": "nif",
+        "d652769b-c40e-4ddf-95ed-ce3d4592dada": "telefon",
+        "680584ad-6cbd-4c8b-9851-b7ec41e4764e": "cargo",
+        "325a5cc8-fe9c-4d7a-9285-e36a1b3fa8f0": "botiga_id",
+        "f76c678a-85a5-4055-81cf-0ab2e3459a33": "empleat",
+        "7c0207f8-5b72-486c-9772-cde3678df8fa": "_id",
+        "f3892c37-c6fe-4286-9289-71980e9f40be": "client_client_id",
+        "41c25420-21a0-463a-800f-ce21b6f22df3": "data_registre",
+        "7d1884a0-89c0-46a0-8367-e2bb4335157b": "tipo",
+        "6a88fcf7-2319-4b2b-8614-8dcb93e1876c": "repartidor_id",
+        "af7bc02d-c29e-4680-99f9-c8d80d69dd88": "data_lliurament",
+        "6ea24c2f-65ff-45e5-8d5d-78c24625915f": "comanda",
+        "f27b901c-c671-48dc-9fcd-4ffeee6c1080": "_id",
+        "4fe7c6d4-a024-4533-b69b-4bb71490abec": "nom",
+        "e93927f4-d685-4b42-9e92-893eef294105": "categoria_pizza",
+        "28cd66ca-1c29-4dec-9f1c-2f85d6cd9b08": "_id",
+        "27e8ebc2-6be9-4b0f-b12c-33284cb7cac2": "nom",
+        "27f9f2ce-bc42-4778-873c-0922a9ce72f6": "descripcio",
+        "7278d8fe-39d9-4d97-8eea-c0f2dd22b49c": "imatge",
+        "693a24b4-4fb4-4006-a594-04c30e970609": "preu",
+        "c09cf4da-ef12-4e4c-938b-a19f0eec3ec0": "tipo",
+        "29039f7f-d89b-45bc-b73c-a8d991520192": "categoria_pizza_id",
+        "671bcb1a-5dae-4284-81b5-97f4c1cc304f": "producte",
+        "8c746e04-3c6a-4f92-9c41-c2ce13089034": "fk producte.categoria_pizza_id to categoria_pizza._id",
+        "68deb9b6-b94e-4c63-af8b-90f811871a43": "fk comanda.repartidor_id to empleat._id",
+        "0dc7677d-6c5e-4e76-aa0a-d8d92bb0c1e4": "fk comanda.client_client_id to client._id",
+        "00e99b6e-4cba-47d2-b72c-6dfc31de21e8": "productes",
+        "53c1d5d9-48fe-43d2-84f4-9bc32626a57f": "producte_id",
+        "15515c55-9b8b-4a30-944e-3f58202c8be2": "fk comanda.productes.[0].producte_id to producte._id",
+        "6964d838-d29d-4fa1-8ec7-d19c5b44f161": "cantidad",
+        "b007faf1-971a-4584-94fd-dab6ee43bec4": "fk empleat.botiga_id to botiga._id"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "63ad7c22-e9b5-4ddf-a37a-a0057a5bcc5f"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "95d02c8a-7b2e-4588-886e-aab66b8dc86b"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "2b66dbaa-2e8e-4675-abd1-46fb737f23a3"
+    },
+    "sources": [
+        {
+            "GUID": "fee56219-c053-4810-ae56-eb1a3e866a13",
+            "sourceName": "RE'd from DDL file",
+            "lineageTimestamp": "2022-09-28 18:12:34 CEST",
+            "lineageSourceType": "DDL",
+            "lineageSourceFormat": "File",
+            "lineageFilePathName": "/Users/chaiben/src/it-academy/Node JS/sprint_2/mysql-estructura/n1e2-pizzeria/pizzeria.sql"
+        }
+    ],
+    "decorativeSymbols": [],
+    "dbVersion": "v5.2",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2022-09-28T16:11:03.052Z",
+    "GUID": "30b5943a-966d-46be-902e-14df998c8d12",
+    "isLineageEnabled": true,
+    "hackoladeMeta": {
+        "validationErrors": {}
+    },
+    "code": "",
+    "lastModifTS": "2022-09-28T16:47:03.586Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.5.2"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "28fad0be-12e4-4985-99ab-e9362423e518",
+                        "x": 80,
+                        "y": 349.2833146696526,
+                        "width": 209,
+                        "height": 177,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "977d820e-34bc-45b6-bc2c-badebef657db",
+                        "x": 744.7323628219483,
+                        "y": 600.8443449048154,
+                        "width": 209,
+                        "height": 127,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "f76c678a-85a5-4055-81cf-0ab2e3459a33",
+                        "x": 748.3269876819697,
+                        "y": 362.21052631579056,
+                        "width": 198,
+                        "height": 159,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "6ea24c2f-65ff-45e5-8d5d-78c24625915f",
+                        "x": 386.73012318029123,
+                        "y": 360.27883538633915,
+                        "width": 273,
+                        "height": 213,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "e93927f4-d685-4b42-9e92-893eef294105",
+                        "x": 80,
+                        "y": 679.9025755879056,
+                        "width": 208,
+                        "height": 69,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "671bcb1a-5dae-4284-81b5-97f4c1cc304f",
+                        "x": 383.25531914893617,
+                        "y": 649.0000000000016,
+                        "width": 248,
+                        "height": 159,
+                        "color": {}
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 40,
+                        "y": 309.2833146696526,
+                        "GUID": "3543916f-71b5-433a-a550-e835661af993"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

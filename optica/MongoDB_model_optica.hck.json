@@ -1,0 +1,990 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "proveïdor",
+            "type": "object",
+            "properties": [
+                {
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "GUID": "701bc2c0-d29c-432e-b7e6-2b2cc44bedac",
+                    "code": "_id",
+                    "required": true,
+                    "name": "_id",
+                    "primaryKey": true,
+                    "error": {},
+                    "childRelationships": [
+                        "73aaf8f2-1d89-4fa4-ac54-0dde74fb1dfd"
+                    ]
+                },
+                {
+                    "name": "nom",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "184de1ab-28ab-44b4-9cf2-f5863d3bb2dd",
+                    "code": "nom",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "adreça",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "carrer",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "a181c627-95e7-4c5b-8b57-f5f703473b65",
+                            "error": {}
+                        },
+                        {
+                            "name": "número",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "3d6f9182-901e-43e1-a6d4-f2c9ecbbc19d",
+                            "code": "numero",
+                            "error": {}
+                        },
+                        {
+                            "name": "pis",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "47372e86-353f-475a-8e5e-171d494b5b0f",
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
+                            "code": "pis"
+                        },
+                        {
+                            "name": "porta",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "18e9cb1c-b0c2-4124-a642-f1d80447062b",
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
+                            "code": "porta"
+                        },
+                        {
+                            "name": "ciutat",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "5e188240-1001-4c1b-b730-216a54bf66a4",
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
+                            "code": "ciutat"
+                        },
+                        {
+                            "name": "codi postal",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "b40591a7-56c0-4d6f-8279-0c12ccc2b8f0",
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
+                            "code": "codiPostal"
+                        },
+                        {
+                            "name": "país",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "21264550-9b0e-41cf-bf71-5882dc85d54b",
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
+                            "code": "pais"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "code": "adreca",
+                    "GUID": "5f303a10-0012-4544-9ecf-6a5403785590",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "telèfon",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "743218a0-0499-4f5a-a050-c6c969b09f80",
+                    "code": "telefon",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "fax",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "b3453469-10f5-4c5a-96ff-9d201afcc1cf",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "code": "fax"
+                },
+                {
+                    "name": "nif",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "82901ad6-bfc4-4b3e-93f2-c537e599bec3",
+                    "code": "nif",
+                    "required": true,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "7f002bc9-9fc3-4f2d-b041-85318376ad91"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "3c8e3e47-c9ed-4afe-b357-45737464ade6",
+            "bucketId": "7819ec5c-b7bd-4966-ac71-b7db64967cfa",
+            "code": "proveidor"
+        },
+        {
+            "collectionName": "ulleres",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "code": "_id",
+                    "GUID": "e8106f68-9117-48fe-92d0-9cb4a960f300",
+                    "required": true,
+                    "primaryKey": true,
+                    "error": {}
+                },
+                {
+                    "name": "marca",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "code": "marca",
+                    "required": true,
+                    "GUID": "340eadc9-586a-44e2-ae6f-67017cb0c19a",
+                    "foreignCollection": "d8ae9b9e-2131-4032-977b-1947565f31f8",
+                    "foreignField": [
+                        "d8ae9b9e-2131-4032-977b-1947565f31f8",
+                        "83efa936-d782-43c1-a2da-e96bb1c9cf9f"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "06835fab-b68a-469d-b065-53bb3ee601be",
+                    "error": {}
+                },
+                {
+                    "name": "graduació",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "izquierdo",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "numeric",
+                            "code": "izquierdo",
+                            "GUID": "c228d5c8-25f7-4ee5-831b-8260d62e680a",
+                            "required": true,
+                            "error": {}
+                        },
+                        {
+                            "name": "derecho",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "numeric",
+                            "code": "derecho",
+                            "required": true,
+                            "GUID": "1f88f8d6-21ef-4f87-b02b-23d136f5ccbc",
+                            "error": {}
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "code": "graduacio",
+                    "GUID": "9cf3e1cf-0332-4837-bee3-b0a89054dfde",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "tipusMuntura",
+                    "hackoladeMeta": {
+                        "namingConvention": "name"
+                    },
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "1c1c197f-0c43-42ad-b254-0a7e3e5f47a4",
+                    "code": "tipusMuntura",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "color de la muntura",
+                    "hackoladeMeta": {
+                        "namingConvention": "name"
+                    },
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "3a99cbd5-9eb4-46c3-89f9-2b35f94975f9",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "code": "colorMuntura"
+                },
+                {
+                    "name": "color vidre",
+                    "hackoladeMeta": {
+                        "namingConvention": "name"
+                    },
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "5486a773-f906-4ea0-a6d6-4714b825008a",
+                    "code": "colorVidre",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "preu",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "numeric",
+                    "code": "preu",
+                    "GUID": "371a50e6-f6fc-4987-b329-45065bfab577",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "empleat",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "code": "empleat",
+                    "GUID": "41802cbb-8ff9-4876-b8b7-664a5ecf276f",
+                    "foreignCollection": "01774374-1ec8-4c3c-b4c5-6b78888b482b",
+                    "foreignField": [
+                        "01774374-1ec8-4c3c-b4c5-6b78888b482b",
+                        "61733cc7-88fa-4a2a-a258-c1bfac9fbd2a"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "fe79613a-ee0c-4ea1-b44e-6c12316592b7",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "client",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "code": "client",
+                    "GUID": "44745cfa-b39d-46b3-b9b7-7ea6e672a248",
+                    "foreignCollection": "76bcceb5-0e52-4d8c-b160-2759ba0ff516",
+                    "foreignField": [
+                        "76bcceb5-0e52-4d8c-b160-2759ba0ff516",
+                        "3b5bd4ef-7b72-46bb-a752-a4e6133a5b7d"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "a9636a22-e613-4574-b4df-efc76bc46580",
+                    "required": true,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f4596df0-ce05-4aed-881d-d0da399b3c86"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "569803e5-a970-4f42-b553-62fda6756b8f",
+            "bucketId": "7819ec5c-b7bd-4966-ac71-b7db64967cfa",
+            "code": "ulleres"
+        },
+        {
+            "collectionName": "clients",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {
+                        "namingConvention": ""
+                    },
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": true,
+                    "code": "_id",
+                    "required": true,
+                    "GUID": "3b5bd4ef-7b72-46bb-a752-a4e6133a5b7d",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "childRelationships": [
+                        "21ae1bfb-f47e-4304-a44f-b9793ad35c7d",
+                        "a9636a22-e613-4574-b4df-efc76bc46580"
+                    ]
+                },
+                {
+                    "name": "nom",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "127537da-63c6-4449-9195-7515bf08ea89",
+                    "code": "nom",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "adreça",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "carrer",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "283f6410-4dd4-4e1e-9158-09f6aa7338ae",
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
+                            "code": "carrer"
+                        },
+                        {
+                            "name": "número",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "fc0e2fce-8adf-4778-8c2d-0810e3832940",
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
+                            "code": "numero"
+                        },
+                        {
+                            "name": "pis",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "40b48cba-efc4-4043-8286-9da6c85de949",
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
+                            "code": "pis"
+                        },
+                        {
+                            "name": "porta",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "c0ba7d72-0d5d-4c21-ab09-fdec12fa4f35",
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
+                            "code": "porta"
+                        },
+                        {
+                            "name": "ciutat",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "cc1fbaa9-3870-4724-aa56-fb011109d431",
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
+                            "code": "ciutat"
+                        },
+                        {
+                            "name": "codi postal",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "d527fa53-1fd2-4047-a3dc-9100047cba3f",
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
+                            "code": "codiPostal"
+                        },
+                        {
+                            "name": "país",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "cbe141bc-8e89-4e4a-af73-389d575a0536",
+                            "error": {
+                                "name": false,
+                                "code": false
+                            },
+                            "code": "pais"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "code": "adreca",
+                    "GUID": "e1b87743-e61f-4533-82ac-b8e411d4ebbc",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "b21d992c-7067-451b-8db2-1a403f2c3f54",
+                    "name": "telèfono",
+                    "code": "telefono",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "email",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "618bc7d4-b5db-474b-a64c-01d099c8833b",
+                    "code": "email",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "data registre",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "date",
+                    "primaryKey": false,
+                    "code": "dataRegistre",
+                    "required": true,
+                    "GUID": "faec9915-6992-4ca6-b7ba-591d0a58d707",
+                    "now": true,
+                    "error": {}
+                },
+                {
+                    "name": "recomanat",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "code": "recomanat",
+                    "GUID": "799e1cec-e24b-4df2-bbbf-794074da31c5",
+                    "foreignCollection": "76bcceb5-0e52-4d8c-b160-2759ba0ff516",
+                    "foreignField": [
+                        "76bcceb5-0e52-4d8c-b160-2759ba0ff516",
+                        "3b5bd4ef-7b72-46bb-a752-a4e6133a5b7d"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "21ae1bfb-f47e-4304-a44f-b9793ad35c7d",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "66f29e37-4709-4cff-bbdf-221a5a2ba8b0"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "76bcceb5-0e52-4d8c-b160-2759ba0ff516",
+            "bucketId": "7819ec5c-b7bd-4966-ac71-b7db64967cfa",
+            "code": "clients"
+        },
+        {
+            "collectionName": "empleat",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "code": "_id",
+                    "GUID": "61733cc7-88fa-4a2a-a258-c1bfac9fbd2a",
+                    "primaryKey": true,
+                    "required": true,
+                    "error": {},
+                    "childRelationships": [
+                        "fe79613a-ee0c-4ea1-b44e-6c12316592b7"
+                    ]
+                },
+                {
+                    "name": "nom",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "f8615352-037d-4dec-8231-91814c758965",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "telèfono",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "f4e5c305-f6c7-43fc-a8cb-c82a29f0445d",
+                    "code": "telefono",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "email",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "fad5ca50-326b-4082-9d15-d11da44ecb5c",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "e1cb3eb2-8d36-4c60-888d-9a49c783ae54"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "01774374-1ec8-4c3c-b4c5-6b78888b482b",
+            "bucketId": "7819ec5c-b7bd-4966-ac71-b7db64967cfa",
+            "code": "empleat"
+        },
+        {
+            "collectionName": "marca",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "code": "_id",
+                    "GUID": "83efa936-d782-43c1-a2da-e96bb1c9cf9f",
+                    "primaryKey": true,
+                    "required": true,
+                    "error": {},
+                    "childRelationships": [
+                        "06835fab-b68a-469d-b065-53bb3ee601be"
+                    ]
+                },
+                {
+                    "name": "nom",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "5d598be4-42bc-41c2-b2c3-4061b318b763",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "proveïdor",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "56a2707e-a123-4b88-a5a2-3b7d72a6399f",
+                    "code": "proveidor",
+                    "required": true,
+                    "foreignCollection": "3c8e3e47-c9ed-4afe-b357-45737464ade6",
+                    "foreignField": [
+                        "3c8e3e47-c9ed-4afe-b357-45737464ade6",
+                        "701bc2c0-d29c-432e-b7e6-2b2cc44bedac"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "73aaf8f2-1d89-4fa4-ac54-0dde74fb1dfd",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c5989f93-022b-49df-b83b-977e58944134"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "d8ae9b9e-2131-4032-977b-1947565f31f8",
+            "bucketId": "7819ec5c-b7bd-4966-ac71-b7db64967cfa",
+            "code": "marca"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "Exercici 1 - Òptica",
+            "type": "bucket",
+            "collectionIds": [
+                "3c8e3e47-c9ed-4afe-b357-45737464ade6",
+                "569803e5-a970-4f42-b553-62fda6756b8f",
+                "76bcceb5-0e52-4d8c-b160-2759ba0ff516",
+                "01774374-1ec8-4c3c-b4c5-6b78888b482b",
+                "d8ae9b9e-2131-4032-977b-1947565f31f8"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "7819ec5c-b7bd-4966-ac71-b7db64967cfa",
+            "hackoladeMeta": {},
+            "code": "optica"
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "fk clients.recomanat to clients._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "76bcceb5-0e52-4d8c-b160-2759ba0ff516",
+                    "3b5bd4ef-7b72-46bb-a752-a4e6133a5b7d"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "76bcceb5-0e52-4d8c-b160-2759ba0ff516",
+                    "799e1cec-e24b-4df2-bbbf-794074da31c5"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "21ae1bfb-f47e-4304-a44f-b9793ad35c7d",
+            "parentCollection": "76bcceb5-0e52-4d8c-b160-2759ba0ff516",
+            "childCollection": "76bcceb5-0e52-4d8c-b160-2759ba0ff516"
+        },
+        {
+            "name": "fk marca.proveïdor to proveïdor._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "3c8e3e47-c9ed-4afe-b357-45737464ade6",
+                    "701bc2c0-d29c-432e-b7e6-2b2cc44bedac"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "d8ae9b9e-2131-4032-977b-1947565f31f8",
+                    "56a2707e-a123-4b88-a5a2-3b7d72a6399f"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "73aaf8f2-1d89-4fa4-ac54-0dde74fb1dfd",
+            "parentCollection": "3c8e3e47-c9ed-4afe-b357-45737464ade6",
+            "childCollection": "d8ae9b9e-2131-4032-977b-1947565f31f8"
+        },
+        {
+            "name": "fk ulleres.empleat to empleat._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "01774374-1ec8-4c3c-b4c5-6b78888b482b",
+                    "61733cc7-88fa-4a2a-a258-c1bfac9fbd2a"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "569803e5-a970-4f42-b553-62fda6756b8f",
+                    "41802cbb-8ff9-4876-b8b7-664a5ecf276f"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "fe79613a-ee0c-4ea1-b44e-6c12316592b7",
+            "parentCollection": "01774374-1ec8-4c3c-b4c5-6b78888b482b",
+            "childCollection": "569803e5-a970-4f42-b553-62fda6756b8f"
+        },
+        {
+            "name": "fk ulleres.marca to marca._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "d8ae9b9e-2131-4032-977b-1947565f31f8",
+                    "83efa936-d782-43c1-a2da-e96bb1c9cf9f"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "569803e5-a970-4f42-b553-62fda6756b8f",
+                    "340eadc9-586a-44e2-ae6f-67017cb0c19a"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "06835fab-b68a-469d-b065-53bb3ee601be",
+            "parentCollection": "d8ae9b9e-2131-4032-977b-1947565f31f8",
+            "childCollection": "569803e5-a970-4f42-b553-62fda6756b8f"
+        },
+        {
+            "name": "fk ulleres.client to clients._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "76bcceb5-0e52-4d8c-b160-2759ba0ff516",
+                    "3b5bd4ef-7b72-46bb-a752-a4e6133a5b7d"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "569803e5-a970-4f42-b553-62fda6756b8f",
+                    "44745cfa-b39d-46b3-b9b7-7ea6e672a248"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "a9636a22-e613-4574-b4df-efc76bc46580",
+            "parentCollection": "76bcceb5-0e52-4d8c-b160-2759ba0ff516",
+            "childCollection": "569803e5-a970-4f42-b553-62fda6756b8f"
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "7819ec5c-b7bd-4966-ac71-b7db64967cfa": "Exercici 1 - Òptica",
+        "3c8e3e47-c9ed-4afe-b357-45737464ade6": "proveïdor",
+        "184de1ab-28ab-44b4-9cf2-f5863d3bb2dd": "nom",
+        "701bc2c0-d29c-432e-b7e6-2b2cc44bedac": "_id",
+        "5f303a10-0012-4544-9ecf-6a5403785590": "adreça",
+        "743218a0-0499-4f5a-a050-c6c969b09f80": "telèfon",
+        "b3453469-10f5-4c5a-96ff-9d201afcc1cf": "fax",
+        "82901ad6-bfc4-4b3e-93f2-c537e599bec3": "nif",
+        "a181c627-95e7-4c5b-8b57-f5f703473b65": "carrer",
+        "3d6f9182-901e-43e1-a6d4-f2c9ecbbc19d": "número",
+        "47372e86-353f-475a-8e5e-171d494b5b0f": "pis",
+        "18e9cb1c-b0c2-4124-a642-f1d80447062b": "porta",
+        "5e188240-1001-4c1b-b730-216a54bf66a4": "ciutat",
+        "b40591a7-56c0-4d6f-8279-0c12ccc2b8f0": "codi postal",
+        "21264550-9b0e-41cf-bf71-5882dc85d54b": "país",
+        "569803e5-a970-4f42-b553-62fda6756b8f": "ulleres",
+        "e8106f68-9117-48fe-92d0-9cb4a960f300": "_id",
+        "340eadc9-586a-44e2-ae6f-67017cb0c19a": "marca",
+        "9cf3e1cf-0332-4837-bee3-b0a89054dfde": "graduació",
+        "c228d5c8-25f7-4ee5-831b-8260d62e680a": "izquierdo",
+        "1f88f8d6-21ef-4f87-b02b-23d136f5ccbc": "derecho",
+        "1c1c197f-0c43-42ad-b254-0a7e3e5f47a4": "tipusMuntura",
+        "3a99cbd5-9eb4-46c3-89f9-2b35f94975f9": "color de la muntura",
+        "5486a773-f906-4ea0-a6d6-4714b825008a": "color vidre",
+        "371a50e6-f6fc-4987-b329-45065bfab577": "preu",
+        "76bcceb5-0e52-4d8c-b160-2759ba0ff516": "clients",
+        "3b5bd4ef-7b72-46bb-a752-a4e6133a5b7d": "_id",
+        "127537da-63c6-4449-9195-7515bf08ea89": "nom",
+        "e1b87743-e61f-4533-82ac-b8e411d4ebbc": "adreça",
+        "283f6410-4dd4-4e1e-9158-09f6aa7338ae": "carrer",
+        "fc0e2fce-8adf-4778-8c2d-0810e3832940": "número",
+        "40b48cba-efc4-4043-8286-9da6c85de949": "pis",
+        "c0ba7d72-0d5d-4c21-ab09-fdec12fa4f35": "porta",
+        "cc1fbaa9-3870-4724-aa56-fb011109d431": "ciutat",
+        "d527fa53-1fd2-4047-a3dc-9100047cba3f": "codi postal",
+        "cbe141bc-8e89-4e4a-af73-389d575a0536": "país",
+        "b21d992c-7067-451b-8db2-1a403f2c3f54": "telèfono",
+        "618bc7d4-b5db-474b-a64c-01d099c8833b": "email",
+        "faec9915-6992-4ca6-b7ba-591d0a58d707": "data registre",
+        "799e1cec-e24b-4df2-bbbf-794074da31c5": "recomanat",
+        "21ae1bfb-f47e-4304-a44f-b9793ad35c7d": "fk clients.recomanat to clients._id",
+        "01774374-1ec8-4c3c-b4c5-6b78888b482b": "empleat",
+        "61733cc7-88fa-4a2a-a258-c1bfac9fbd2a": "_id",
+        "f8615352-037d-4dec-8231-91814c758965": "nom",
+        "f4e5c305-f6c7-43fc-a8cb-c82a29f0445d": "telèfono",
+        "fad5ca50-326b-4082-9d15-d11da44ecb5c": "email",
+        "d8ae9b9e-2131-4032-977b-1947565f31f8": "marca",
+        "83efa936-d782-43c1-a2da-e96bb1c9cf9f": "_id",
+        "5d598be4-42bc-41c2-b2c3-4061b318b763": "nom",
+        "56a2707e-a123-4b88-a5a2-3b7d72a6399f": "proveïdor",
+        "73aaf8f2-1d89-4fa4-ac54-0dde74fb1dfd": "fk marca.proveïdor to proveïdor._id",
+        "41802cbb-8ff9-4876-b8b7-664a5ecf276f": "empleat",
+        "fe79613a-ee0c-4ea1-b44e-6c12316592b7": "fk ulleres.empleat to empleat._id",
+        "06835fab-b68a-469d-b065-53bb3ee601be": "fk ulleres.marca to marca._id",
+        "44745cfa-b39d-46b3-b9b7-7ea6e672a248": "client",
+        "a9636a22-e613-4574-b4df-efc76bc46580": "fk ulleres.client to clients._id"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "4c93efc5-f538-4190-8c6b-7c57ae88c6d5"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "1dfa65ed-7290-49f7-80ee-4bd19083e52a"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "c37cdcf9-0d31-4907-8dbf-1d8820c2cb14"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v5.0",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2022-09-28T14:15:24.256Z",
+    "GUID": "98ef1f3c-7c1d-4933-86e3-cefa3768487d",
+    "isLineageEnabled": false,
+    "lastModifTS": "2022-09-28T15:48:45.364Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.5.2"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "3c8e3e47-c9ed-4afe-b357-45737464ade6",
+                        "x": 80,
+                        "y": 268,
+                        "width": 227,
+                        "height": 267,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "569803e5-a970-4f42-b553-62fda6756b8f",
+                        "x": 367,
+                        "y": 590,
+                        "width": 256,
+                        "height": 231,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "76bcceb5-0e52-4d8c-b160-2759ba0ff516",
+                        "x": 679,
+                        "y": 538,
+                        "width": 234,
+                        "height": 285,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "01774374-1ec8-4c3c-b4c5-6b78888b482b",
+                        "x": 83,
+                        "y": 637,
+                        "width": 193,
+                        "height": 105,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "d8ae9b9e-2131-4032-977b-1947565f31f8",
+                        "x": 407,
+                        "y": 361,
+                        "width": 201,
+                        "height": 87,
+                        "color": {}
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 40,
+                        "y": 228,
+                        "GUID": "7819ec5c-b7bd-4966-ac71-b7db64967cfa"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
