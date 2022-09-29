@@ -510,7 +510,17 @@
                     "required": true,
                     "primaryKey": false,
                     "GUID": "680584ad-6cbd-4c8b-9851-b7ec41e4764e",
-                    "error": {},
+                    "error": {
+                        "enum": false,
+                        "enums": [
+                            false,
+                            false
+                        ],
+                        "exampleItems": [
+                            false,
+                            false
+                        ]
+                    },
                     "sources": [
                         {
                             "GUID": "982eee57-9617-4c82-a62c-822849bd98e1",
@@ -522,6 +532,10 @@
                             "lineageSourceContainerBusName": "New_Database",
                             "lineageSourceContainerTechName": ""
                         }
+                    ],
+                    "enum": [
+                        "cuiner",
+                        "repartidor"
                     ]
                 },
                 {
@@ -1036,7 +1050,19 @@
                     "required": true,
                     "primaryKey": false,
                     "GUID": "c09cf4da-ef12-4e4c-938b-a19f0eec3ec0",
-                    "error": {},
+                    "error": {
+                        "enum": false,
+                        "enums": [
+                            false,
+                            false,
+                            false
+                        ],
+                        "exampleItems": [
+                            false,
+                            false,
+                            false
+                        ]
+                    },
                     "sources": [
                         {
                             "GUID": "d535e23d-43bc-4ad5-ad00-4cc35f24e0cc",
@@ -1048,6 +1074,11 @@
                             "lineageSourceContainerBusName": "New_Database",
                             "lineageSourceContainerTechName": ""
                         }
+                    ],
+                    "enum": [
+                        "pizzes",
+                        "hamburgueses",
+                        "begudes"
                     ]
                 },
                 {
@@ -1333,7 +1364,7 @@
         "validationErrors": {}
     },
     "code": "",
-    "lastModifTS": "2022-09-28T16:47:03.586Z",
+    "lastModifTS": "2022-09-29T03:20:39.317Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {

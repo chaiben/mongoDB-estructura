@@ -132,7 +132,11 @@ db.createCollection("empleat", {
                     "maxLength": 20
                 },
                 "cargo": {
-                    "bsonType": "string"
+                    "bsonType": "string",
+                    "enum": [
+                        "cuiner",
+                        "repartidor"
+                    ]
                 },
                 "botiga_id": {
                     "bsonType": "objectId"
@@ -275,7 +279,12 @@ db.createCollection("producte", {
                     "bsonType": "number"
                 },
                 "tipo": {
-                    "bsonType": "string"
+                    "bsonType": "string",
+                    "enum": [
+                        "pizzes",
+                        "hamburgueses",
+                        "begudes"
+                    ]
                 },
                 "categoria_pizza_id": {
                     "bsonType": "objectId"

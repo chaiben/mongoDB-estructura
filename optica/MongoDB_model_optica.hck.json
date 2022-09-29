@@ -250,7 +250,24 @@
                     "GUID": "1c1c197f-0c43-42ad-b254-0a7e3e5f47a4",
                     "code": "tipusMuntura",
                     "required": true,
-                    "error": {}
+                    "error": {
+                        "enum": false,
+                        "enums": [
+                            false,
+                            false,
+                            false
+                        ],
+                        "exampleItems": [
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    "enum": [
+                        "flotant",
+                        "pasta",
+                        "metàl·lica"
+                    ]
                 },
                 {
                     "name": "color de la muntura",
@@ -898,7 +915,7 @@
     "creationTS": "2022-09-28T14:15:24.256Z",
     "GUID": "98ef1f3c-7c1d-4933-86e3-cefa3768487d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-09-28T15:48:45.364Z",
+    "lastModifTS": "2022-09-29T03:18:05.976Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -907,6 +924,7 @@
     "applicationInformation": {
         "version": "6.5.2"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {

@@ -114,7 +114,12 @@ db.createCollection("ulleres", {
                 },
                 "tipusMuntura": {
                     "bsonType": "string",
-                    "title": "tipusMuntura"
+                    "title": "tipusMuntura",
+                    "enum": [
+                        "flotant",
+                        "pasta",
+                        "metàl·lica"
+                    ]
                 },
                 "colorMuntura": {
                     "bsonType": "string",
