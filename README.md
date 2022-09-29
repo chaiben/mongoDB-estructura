@@ -14,17 +14,19 @@ docker compose up
 
 ### Ejercicio 1: Optica
 Archivos
-- MongoDB_model_optica.hck.json: Modelo definido utilizando Hackolade
-- optica.png: Imagen del modelo definido
-- optica_mongodb_script_shell.json: MongoDb script
-- optica_sample_data_shell.json: Ejemplo de dato a ser insertado
+- *MongoDB_model_optica.hck.json*: Modelo definido utilizando Hackolade
+- *optica_mongodb_script_shell.json*: MongoDb script
+- *optica_sample_data_shell.json*: Ejemplo de dato a ser insertado
+- *optica.png*: Imagen del modelo definido
+![Modelo optica](./optica/optica.png)
 
 ### Ejercicio 2: Pizzeria
 Archivos
-- MongoDB_model_pizzeria.hck.json: Modelo definido utilizando Hackolade
-- pizzeria.png: Imagen del modelo definido
-- pizzeria_mongodb_script_shell.json: MongoDb script
-- pizzeria_sample_data_shell.json: Ejemplo de dato a ser insertado
+- *MongoDB_model_pizzeria.hck.json*: Modelo definido utilizando Hackolade
+- *pizzeria_mongodb_script_shell.json*: MongoDb script
+- *pizzeria_sample_data_shell.json*: Ejemplo de dato a ser insertado
+- *pizzeria.png*: Imagen del modelo definido
+![Modelo pizzeria](./pizzeria/pizzeria.png)
 
 ## Programas utilizados
 - [Hackolade](https://hackolade.com/): Programa para modelaje de la base de datos
