@@ -627,7 +627,7 @@
                     ]
                 },
                 {
-                    "name": "client_client_id",
+                    "name": "client_id",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "objectId",
@@ -1302,7 +1302,7 @@
         "325a5cc8-fe9c-4d7a-9285-e36a1b3fa8f0": "botiga_id",
         "f76c678a-85a5-4055-81cf-0ab2e3459a33": "empleat",
         "7c0207f8-5b72-486c-9772-cde3678df8fa": "_id",
-        "f3892c37-c6fe-4286-9289-71980e9f40be": "client_client_id",
+        "f3892c37-c6fe-4286-9289-71980e9f40be": "client_id",
         "41c25420-21a0-463a-800f-ce21b6f22df3": "data_registre",
         "7d1884a0-89c0-46a0-8367-e2bb4335157b": "tipo",
         "6a88fcf7-2319-4b2b-8614-8dcb93e1876c": "repartidor_id",
@@ -1364,7 +1364,7 @@
         "validationErrors": {}
     },
     "code": "",
-    "lastModifTS": "2022-09-29T03:20:39.317Z",
+    "lastModifTS": "2022-09-29T03:40:38.124Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {

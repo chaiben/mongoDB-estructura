@@ -1,5 +1,5 @@
 db.collection("client").insert({
-    "_id": ObjectId("ff8fdeeeb57f1409ce4207be"),
+    "_id": ObjectId("bfe2f81edb4c4edb863d0f1c"),
     "nom": "Lorem",
     "cognoms": "Lorem",
     "adreca": "Lorem",
@@ -10,7 +10,7 @@ db.collection("client").insert({
 });
 
 db.collection("botiga").insert({
-    "_id": ObjectId("8a4ec619683cdada0933bac1"),
+    "_id": ObjectId("3ed07aacbbeddfeeea0b0af1"),
     "adreca": "Lorem",
     "codi_postal": "Lorem",
     "localitat": "Lorem",
@@ -18,41 +18,41 @@ db.collection("botiga").insert({
 });
 
 db.collection("empleat").insert({
-    "_id": ObjectId("9be09dbbcefa8ba3f7802e20"),
+    "_id": ObjectId("e4296cd20347faeca8c19ef9"),
     "nom": "Lorem",
     "cognoms": "Lorem",
     "nif": "Lorem",
     "telefon": "Lorem",
     "cargo": "repartidor",
-    "botiga_id": ObjectId("7cee27cade7dea8f33bb9bf9")
+    "botiga_id": ObjectId("f1bcd785acc60aa068b59c75")
 });
 
 db.collection("comanda").insert({
-    "_id": ObjectId("a0efbe035a762b10e4e4c7ac"),
-    "client_client_id": ObjectId("ecef9f36faa5c09adb99a06c"),
+    "_id": ObjectId("831d95ea5fcd87114dabf4d0"),
+    "client_id": ObjectId("a13ecd47177ccbdbdebb67ce"),
     "data_registre": ISODate("2016-04-08T15:06:21.595Z"),
     "tipo": "Lorem",
-    "repartidor_id": ObjectId("ca9ae1be1eee1cdac3edfaea"),
+    "repartidor_id": ObjectId("b4698abaca0d8b5fd4bc00c1"),
     "data_lliurament": ISODate("2016-04-08T15:06:21.595Z"),
     "products": [
         {
-            "producte_id": ObjectId("43bc1cc4fafa90acab4aa54b"),
+            "producte_id": ObjectId("f1eeef3400dfeb778d4dad4a"),
             "cantidad": 33
         }
     ]
 });
 
 db.collection("categoria_pizza").insert({
-    "_id": ObjectId("752bf3a76e7efae7ce6ceb6d"),
+    "_id": ObjectId("afce3c66deeaf7fb7dbbecec"),
     "nom": "Lorem"
 });
 
 db.collection("producte").insert({
-    "_id": ObjectId("a1f09b8c8f83af1debcbdcd2"),
+    "_id": ObjectId("cfebfa9ff9aedb64b4dfb6a8"),
     "nom": "Lorem",
     "descripcio": "Lorem",
     "imatge": "Lorem",
     "preu": 22,
     "tipo": "begudes",
-    "categoria_pizza_id": ObjectId("caf275db8b710dadc48df3bf")
+    "categoria_pizza_id": ObjectId("fabedad0260930afeb334dcd")
 });

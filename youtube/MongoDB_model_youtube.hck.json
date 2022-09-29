@@ -21,7 +21,14 @@
                         "7a9b9671-02b2-4d81-ac11-cf749c79a822",
                         "4990a87c-4d69-407b-8c5b-07ebfebb9482",
                         "7a234250-e7ac-44b8-a6c3-8729d7d4fa35",
-                        "955804ff-d4e2-4803-b556-1d9b1bbedf73"
+                        "955804ff-d4e2-4803-b556-1d9b1bbedf73",
+                        "274c12a3-222f-4112-97ac-1047dda85eef",
+                        "0dc32492-d724-49da-bf02-86f33f73e82a",
+                        "9264efa2-70d2-4e9a-bce2-385af1a201fb",
+                        "ba6b9e6a-7f37-498a-a980-3ebb28798b89",
+                        "f787a266-c137-458a-8552-498000c797ad",
+                        "3f9640b2-53fc-4998-a031-a9e114f6d0d6",
+                        "b60c9c83-081c-404f-bbe2-70a8f5e29376"
                     ],
                     "error": {},
                     "sources": [
@@ -244,7 +251,9 @@
                         "2e89fe7f-8c36-442b-be1f-3fcad3330a28",
                         "3d9ae9ab-4441-412c-9a88-fddc7b19ade0",
                         "362e273a-1c11-4e1c-8e0b-4aba4b3c5569",
-                        "90509f4a-45a5-468b-b1d9-0ec0d47b480a"
+                        "90509f4a-45a5-468b-b1d9-0ec0d47b480a",
+                        "88ee1037-0cc5-4b2e-9b69-55925a9a970a",
+                        "fa0bd588-daa4-489c-ac1d-07fe38544993"
                     ],
                     "error": {},
                     "sources": [
@@ -537,9 +546,6 @@
                     "code": "",
                     "required": true,
                     "GUID": "ff5a874c-2f2c-4000-88b3-de088b93fd14",
-                    "parentRelationship": "e42f397f-ca8f-4d43-8b31-66ab8a09fc8a",
-                    "relationshipType": "Foreign Key",
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "8898fd0b-5867-4f6b-9450-984ba44adb93",
@@ -551,7 +557,15 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "foreignField": [
+                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "274c12a3-222f-4112-97ac-1047dda85eef",
+                    "error": {}
                 },
                 {
                     "name": "etiquetas",
@@ -566,10 +580,15 @@
                             "GUID": "16d8d164-1349-45bf-bf74-8f834cb8a610",
                             "arrayItem": true,
                             "arrayParentType": "array",
-                            "parentRelationship": "ee1ed738-aed0-4256-bc57-1f70ebc8c6ef",
+                            "displayName": "video_etiqueta_id",
+                            "foreignCollection": "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
+                            "foreignField": [
+                                "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
+                                "c30ead7a-3538-478c-904e-d018c003539e"
+                            ],
                             "relationshipType": "Foreign Key",
-                            "error": {},
-                            "displayName": "video_etiqueta_id"
+                            "parentRelationship": "1366b6d7-4899-41c6-be42-219e38ff034d",
+                            "error": {}
                         }
                     ],
                     "additionalItems": true,
@@ -619,7 +638,8 @@
                     "GUID": "c30ead7a-3538-478c-904e-d018c003539e",
                     "childRelationships": [
                         "68f3c097-cb40-47fc-9186-d7ddd8e91f82",
-                        "ee1ed738-aed0-4256-bc57-1f70ebc8c6ef"
+                        "ee1ed738-aed0-4256-bc57-1f70ebc8c6ef",
+                        "1366b6d7-4899-41c6-be42-219e38ff034d"
                     ],
                     "error": {},
                     "sources": [
@@ -699,7 +719,8 @@
                     "required": true,
                     "GUID": "e4dfe1ab-c149-4865-a3c5-61422a79fe03",
                     "childRelationships": [
-                        "9112df4f-56f6-48c0-8d07-93bfea85b5a1"
+                        "9112df4f-56f6-48c0-8d07-93bfea85b5a1",
+                        "74f37545-8850-4502-b25d-f54a19ffe6ea"
                     ],
                     "error": {},
                     "sources": [
@@ -793,9 +814,6 @@
                     "code": "",
                     "required": true,
                     "GUID": "71a31523-2df6-4a03-befe-be33a968c6ae",
-                    "parentRelationship": "9c0fd4ef-56f2-40eb-8b9c-7f7ee528c9ce",
-                    "relationshipType": "Foreign Key",
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "f1f110b5-d3b4-4bba-ba2c-aedee67264fd",
@@ -807,7 +825,15 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "foreignField": [
+                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "f787a266-c137-458a-8552-498000c797ad",
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -850,9 +876,6 @@
                     "code": "",
                     "required": true,
                     "GUID": "a964c6c5-28c5-4e1a-b007-e536f20a9d8e",
-                    "parentRelationship": "58ab9bb1-cb84-44f2-a48a-1593fa80e77a",
-                    "relationshipType": "Foreign Key",
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "c0ec9e56-8085-434d-a4ff-41643295bf2b",
@@ -864,7 +887,15 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "foreignField": [
+                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "ba6b9e6a-7f37-498a-a980-3ebb28798b89",
+                    "error": {}
                 },
                 {
                     "name": "canal_id",
@@ -875,9 +906,6 @@
                     "code": "",
                     "required": true,
                     "GUID": "070d0737-cf56-490c-bc46-a23c2b529836",
-                    "parentRelationship": "9112df4f-56f6-48c0-8d07-93bfea85b5a1",
-                    "relationshipType": "Foreign Key",
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "67b435bf-b337-4575-bce9-a2da7cccfbf2",
@@ -889,7 +917,15 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "foreignCollection": "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
+                    "foreignField": [
+                        "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
+                        "e4dfe1ab-c149-4865-a3c5-61422a79fe03"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "74f37545-8850-4502-b25d-f54a19ffe6ea",
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -932,9 +968,6 @@
                     "code": "",
                     "required": true,
                     "GUID": "88b6c732-5422-48f6-87fa-56d869a48d43",
-                    "parentRelationship": "7a9b9671-02b2-4d81-ac11-cf749c79a822",
-                    "relationshipType": "Foreign Key",
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "cbc39746-5157-486e-8b47-6169a7406726",
@@ -946,7 +979,15 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "foreignField": [
+                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "0dc32492-d724-49da-bf02-86f33f73e82a",
+                    "error": {}
                 },
                 {
                     "name": "video_id",
@@ -957,9 +998,6 @@
                     "code": "",
                     "required": true,
                     "GUID": "daf8cbdd-b268-4f2c-b3ab-db0d18ca1151",
-                    "parentRelationship": "2e89fe7f-8c36-442b-be1f-3fcad3330a28",
-                    "relationshipType": "Foreign Key",
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "99989fb0-7b13-492c-8daf-3bfaa4b2e53b",
@@ -971,7 +1009,15 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "foreignCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
+                    "foreignField": [
+                        "81e786ca-a3ad-4777-9a00-7bcc53625c57",
+                        "0356c507-6a67-4fc6-b9a4-e791f43f4f49"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "88ee1037-0cc5-4b2e-9b69-55925a9a970a",
+                    "error": {}
                 },
                 {
                     "name": "value",
@@ -1183,9 +1229,6 @@
                     "code": "",
                     "required": true,
                     "GUID": "0b40f1e4-5ffe-4a75-b2b9-182f67f7f98c",
-                    "parentRelationship": "4990a87c-4d69-407b-8c5b-07ebfebb9482",
-                    "relationshipType": "Foreign Key",
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "ab29909e-c2dd-46bc-a39a-b8dc292c5c6f",
@@ -1197,7 +1240,15 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "foreignField": [
+                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "9264efa2-70d2-4e9a-bce2-385af1a201fb",
+                    "error": {}
                 },
                 {
                     "name": "videos",
@@ -1260,7 +1311,7 @@
             "type": "object",
             "properties": [
                 {
-                    "name": "comentari_id",
+                    "name": "_id",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "objectId",
@@ -1269,9 +1320,9 @@
                     "required": true,
                     "GUID": "1f6dae62-61a8-4530-9561-561304a30d75",
                     "childRelationships": [
-                        "3031e1e8-f606-4b6d-913d-f992c2abb1c3"
+                        "3031e1e8-f606-4b6d-913d-f992c2abb1c3",
+                        "be21a62a-7664-435c-bddb-6435657c7105"
                     ],
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "3cfb79b8-508c-41a9-ac2f-68d1e9b9ba23",
@@ -1283,7 +1334,8 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "error": {}
                 },
                 {
                     "name": "usuari_id",
@@ -1294,9 +1346,6 @@
                     "code": "",
                     "required": true,
                     "GUID": "ff78fb41-cc73-4481-b35d-70351aefdbc9",
-                    "parentRelationship": "7a234250-e7ac-44b8-a6c3-8729d7d4fa35",
-                    "relationshipType": "Foreign Key",
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "f62c8474-22ef-449b-a21c-55d858a325b8",
@@ -1308,7 +1357,15 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "foreignField": [
+                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "3f9640b2-53fc-4998-a031-a9e114f6d0d6",
+                    "error": {}
                 },
                 {
                     "name": "video_id",
@@ -1319,9 +1376,6 @@
                     "code": "",
                     "required": true,
                     "GUID": "912272ca-24f5-4be4-90df-71c01211c15f",
-                    "parentRelationship": "362e273a-1c11-4e1c-8e0b-4aba4b3c5569",
-                    "relationshipType": "Foreign Key",
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "a0db3abb-864f-4e03-aa5d-4f5a1813bbc8",
@@ -1333,7 +1387,15 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "foreignCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
+                    "foreignField": [
+                        "81e786ca-a3ad-4777-9a00-7bcc53625c57",
+                        "0356c507-6a67-4fc6-b9a4-e791f43f4f49"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "fa0bd588-daa4-489c-ac1d-07fe38544993",
+                    "error": {}
                 },
                 {
                     "code": "",
@@ -1414,7 +1476,7 @@
             "type": "object",
             "properties": [
                 {
-                    "name": "usuari_usuari_id",
+                    "name": "usuari_id",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "objectId",
@@ -1422,9 +1484,6 @@
                     "code": "",
                     "required": true,
                     "GUID": "fcaf5124-49ba-4c3c-9889-41892590761c",
-                    "parentRelationship": "955804ff-d4e2-4803-b556-1d9b1bbedf73",
-                    "relationshipType": "Foreign Key",
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "bceffcc4-a43d-4a52-ad09-bbe1dc86f9b8",
@@ -1436,10 +1495,18 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "foreignField": [
+                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "b60c9c83-081c-404f-bbe2-70a8f5e29376",
+                    "error": {}
                 },
                 {
-                    "name": "comentari_comentari_id",
+                    "name": "comentari_id",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "objectId",
@@ -1447,9 +1514,6 @@
                     "code": "",
                     "required": true,
                     "GUID": "c441ba00-00e5-468f-89d5-81a9e50bb8d9",
-                    "parentRelationship": "3031e1e8-f606-4b6d-913d-f992c2abb1c3",
-                    "relationshipType": "Foreign Key",
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "40c39d57-abfa-4495-9b14-d80f285a2899",
@@ -1461,7 +1525,15 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "foreignCollection": "be726dc0-0aed-4c99-9df1-ad31dfa82756",
+                    "foreignField": [
+                        "be726dc0-0aed-4c99-9df1-ad31dfa82756",
+                        "1f6dae62-61a8-4530-9561-561304a30d75"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "be21a62a-7664-435c-bddb-6435657c7105",
+                    "error": {}
                 },
                 {
                     "name": "value",
@@ -1581,259 +1653,6 @@
     "views": [],
     "relationships": [
         {
-            "name": "fk_video_usuari",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                    "ff5a874c-2f2c-4000-88b3-de088b93fd14"
-                ]
-            ],
-            "childCardinality": "0..n",
-            "GUID": "e42f397f-ca8f-4d43-8b31-66ab8a09fc8a",
-            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57"
-        },
-        {
-            "name": "fk_canal_usuari1",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
-                    "71a31523-2df6-4a03-befe-be33a968c6ae"
-                ]
-            ],
-            "childCardinality": "0..n",
-            "GUID": "9c0fd4ef-56f2-40eb-8b9c-7f7ee528c9ce",
-            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f"
-        },
-        {
-            "name": "fk_usuari_has_canal_usuari1",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "21e2d2a4-475e-4811-917f-1f1471e41ffc",
-                    "a964c6c5-28c5-4e1a-b007-e536f20a9d8e"
-                ]
-            ],
-            "childCardinality": "0..n",
-            "GUID": "58ab9bb1-cb84-44f2-a48a-1593fa80e77a",
-            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "21e2d2a4-475e-4811-917f-1f1471e41ffc"
-        },
-        {
-            "name": "fk_usuari_has_canal_canal1",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
-                    "e4dfe1ab-c149-4865-a3c5-61422a79fe03"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "21e2d2a4-475e-4811-917f-1f1471e41ffc",
-                    "070d0737-cf56-490c-bc46-a23c2b529836"
-                ]
-            ],
-            "childCardinality": "0..n",
-            "GUID": "9112df4f-56f6-48c0-8d07-93bfea85b5a1",
-            "parentCollection": "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
-            "childCollection": "21e2d2a4-475e-4811-917f-1f1471e41ffc"
-        },
-        {
-            "name": "fk_usuari_has_video_usuari1",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "0134122d-1f2c-4a65-9ea6-a219d6910526",
-                    "88b6c732-5422-48f6-87fa-56d869a48d43"
-                ]
-            ],
-            "childCardinality": "0..n",
-            "GUID": "7a9b9671-02b2-4d81-ac11-cf749c79a822",
-            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "0134122d-1f2c-4a65-9ea6-a219d6910526"
-        },
-        {
-            "name": "fk_usuari_has_video_video1",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                    "0356c507-6a67-4fc6-b9a4-e791f43f4f49"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "0134122d-1f2c-4a65-9ea6-a219d6910526",
-                    "daf8cbdd-b268-4f2c-b3ab-db0d18ca1151"
-                ]
-            ],
-            "childCardinality": "0..n",
-            "GUID": "2e89fe7f-8c36-442b-be1f-3fcad3330a28",
-            "parentCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-            "childCollection": "0134122d-1f2c-4a65-9ea6-a219d6910526"
-        },
-        {
-            "name": "fk_playlist_usuari1",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "17137dba-4604-4781-9527-68052d28cd1c",
-                    "0b40f1e4-5ffe-4a75-b2b9-182f67f7f98c"
-                ]
-            ],
-            "childCardinality": "0..n",
-            "GUID": "4990a87c-4d69-407b-8c5b-07ebfebb9482",
-            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "17137dba-4604-4781-9527-68052d28cd1c"
-        },
-        {
-            "name": "fk_usuari_has_video_usuari2",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-                    "ff78fb41-cc73-4481-b35d-70351aefdbc9"
-                ]
-            ],
-            "childCardinality": "0..n",
-            "GUID": "7a234250-e7ac-44b8-a6c3-8729d7d4fa35",
-            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "be726dc0-0aed-4c99-9df1-ad31dfa82756"
-        },
-        {
-            "name": "fk_usuari_has_video_video2",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                    "0356c507-6a67-4fc6-b9a4-e791f43f4f49"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-                    "912272ca-24f5-4be4-90df-71c01211c15f"
-                ]
-            ],
-            "childCardinality": "0..n",
-            "GUID": "362e273a-1c11-4e1c-8e0b-4aba4b3c5569",
-            "parentCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-            "childCollection": "be726dc0-0aed-4c99-9df1-ad31dfa82756"
-        },
-        {
-            "name": "fk_usuari_has_comentari_usuari1",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "fc060c16-b123-4b88-8400-c611082e0e51",
-                    "fcaf5124-49ba-4c3c-9889-41892590761c"
-                ]
-            ],
-            "childCardinality": "0..n",
-            "GUID": "955804ff-d4e2-4803-b556-1d9b1bbedf73",
-            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "fc060c16-b123-4b88-8400-c611082e0e51"
-        },
-        {
-            "name": "fk_usuari_has_comentari_comentari1",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-                    "1f6dae62-61a8-4530-9561-561304a30d75"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "fc060c16-b123-4b88-8400-c611082e0e51",
-                    "c441ba00-00e5-468f-89d5-81a9e50bb8d9"
-                ]
-            ],
-            "childCardinality": "0..n",
-            "GUID": "3031e1e8-f606-4b6d-913d-f992c2abb1c3",
-            "parentCollection": "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-            "childCollection": "fc060c16-b123-4b88-8400-c611082e0e51"
-        },
-        {
-            "name": "fk video.etiquetas.[0] to video_etiqueta._id",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
-                    "c30ead7a-3538-478c-904e-d018c003539e"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                    "75b21390-4560-4705-a4c3-22eefcf4713c",
-                    "16d8d164-1349-45bf-bf74-8f834cb8a610"
-                ]
-            ],
-            "childCardinality": "1",
-            "GUID": "ee1ed738-aed0-4256-bc57-1f70ebc8c6ef",
-            "parentCollection": "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
-            "childCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57"
-        },
-        {
             "name": "fk playlist.videos.[0] to video._id",
             "relationshipType": "Foreign Key",
             "parentField": [
@@ -1854,6 +1673,259 @@
             "GUID": "90509f4a-45a5-468b-b1d9-0ec0d47b480a",
             "parentCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
             "childCollection": "17137dba-4604-4781-9527-68052d28cd1c"
+        },
+        {
+            "name": "fk video.usuari_id to usuari._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
+                    "ff5a874c-2f2c-4000-88b3-de088b93fd14"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "274c12a3-222f-4112-97ac-1047dda85eef",
+            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+            "childCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57"
+        },
+        {
+            "name": "fk video.etiquetas.[0] to video_etiqueta._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
+                    "c30ead7a-3538-478c-904e-d018c003539e"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
+                    "75b21390-4560-4705-a4c3-22eefcf4713c",
+                    "16d8d164-1349-45bf-bf74-8f834cb8a610"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "1366b6d7-4899-41c6-be42-219e38ff034d",
+            "parentCollection": "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
+            "childCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57"
+        },
+        {
+            "name": "fk like_dislike_video.video_id to video._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
+                    "0356c507-6a67-4fc6-b9a4-e791f43f4f49"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "0134122d-1f2c-4a65-9ea6-a219d6910526",
+                    "daf8cbdd-b268-4f2c-b3ab-db0d18ca1151"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "88ee1037-0cc5-4b2e-9b69-55925a9a970a",
+            "parentCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
+            "childCollection": "0134122d-1f2c-4a65-9ea6-a219d6910526"
+        },
+        {
+            "name": "fk like_dislike_video.usuari_id to usuari._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "0134122d-1f2c-4a65-9ea6-a219d6910526",
+                    "88b6c732-5422-48f6-87fa-56d869a48d43"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "0dc32492-d724-49da-bf02-86f33f73e82a",
+            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+            "childCollection": "0134122d-1f2c-4a65-9ea6-a219d6910526"
+        },
+        {
+            "name": "fk playlist.usuari_id to usuari._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "17137dba-4604-4781-9527-68052d28cd1c",
+                    "0b40f1e4-5ffe-4a75-b2b9-182f67f7f98c"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "9264efa2-70d2-4e9a-bce2-385af1a201fb",
+            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+            "childCollection": "17137dba-4604-4781-9527-68052d28cd1c"
+        },
+        {
+            "name": "fk suscriptors_canal.usuari_id to usuari._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "21e2d2a4-475e-4811-917f-1f1471e41ffc",
+                    "a964c6c5-28c5-4e1a-b007-e536f20a9d8e"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "ba6b9e6a-7f37-498a-a980-3ebb28798b89",
+            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+            "childCollection": "21e2d2a4-475e-4811-917f-1f1471e41ffc"
+        },
+        {
+            "name": "fk suscriptors_canal.canal_id to canal._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
+                    "e4dfe1ab-c149-4865-a3c5-61422a79fe03"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "21e2d2a4-475e-4811-917f-1f1471e41ffc",
+                    "070d0737-cf56-490c-bc46-a23c2b529836"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "74f37545-8850-4502-b25d-f54a19ffe6ea",
+            "parentCollection": "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
+            "childCollection": "21e2d2a4-475e-4811-917f-1f1471e41ffc"
+        },
+        {
+            "name": "fk canal.usuari_id to usuari._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
+                    "71a31523-2df6-4a03-befe-be33a968c6ae"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "f787a266-c137-458a-8552-498000c797ad",
+            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+            "childCollection": "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f"
+        },
+        {
+            "name": "fk comentari.usuari_id to usuari._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "be726dc0-0aed-4c99-9df1-ad31dfa82756",
+                    "ff78fb41-cc73-4481-b35d-70351aefdbc9"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "3f9640b2-53fc-4998-a031-a9e114f6d0d6",
+            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+            "childCollection": "be726dc0-0aed-4c99-9df1-ad31dfa82756"
+        },
+        {
+            "name": "fk comentari.video_id to video._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
+                    "0356c507-6a67-4fc6-b9a4-e791f43f4f49"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "be726dc0-0aed-4c99-9df1-ad31dfa82756",
+                    "912272ca-24f5-4be4-90df-71c01211c15f"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "fa0bd588-daa4-489c-ac1d-07fe38544993",
+            "parentCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
+            "childCollection": "be726dc0-0aed-4c99-9df1-ad31dfa82756"
+        },
+        {
+            "name": "fk like_dislike_comentari.usuari_usuari_id to usuari._id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "fc060c16-b123-4b88-8400-c611082e0e51",
+                    "fcaf5124-49ba-4c3c-9889-41892590761c"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "b60c9c83-081c-404f-bbe2-70a8f5e29376",
+            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+            "childCollection": "fc060c16-b123-4b88-8400-c611082e0e51"
+        },
+        {
+            "name": "fk like_dislike_comentari.comentari_comentari_id to comentari.comentari_id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "be726dc0-0aed-4c99-9df1-ad31dfa82756",
+                    "1f6dae62-61a8-4530-9561-561304a30d75"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "fc060c16-b123-4b88-8400-c611082e0e51",
+                    "c441ba00-00e5-468f-89d5-81a9e50bb8d9"
+                ]
+            ],
+            "childCardinality": "1",
+            "GUID": "be21a62a-7664-435c-bddb-6435657c7105",
+            "parentCollection": "be726dc0-0aed-4c99-9df1-ad31dfa82756",
+            "childCollection": "fc060c16-b123-4b88-8400-c611082e0e51"
         }
     ],
     "users": [],
@@ -1907,32 +1979,32 @@
         "a0934c33-c1eb-4f87-b1d7-98be90c17f6e": "estat",
         "0b40f1e4-5ffe-4a75-b2b9-182f67f7f98c": "usuari_id",
         "17137dba-4604-4781-9527-68052d28cd1c": "playlist",
-        "1f6dae62-61a8-4530-9561-561304a30d75": "comentari_id",
+        "1f6dae62-61a8-4530-9561-561304a30d75": "_id",
         "ff78fb41-cc73-4481-b35d-70351aefdbc9": "usuari_id",
         "912272ca-24f5-4be4-90df-71c01211c15f": "video_id",
         "08b52a9e-54e5-4593-8013-12a4f4347934": "text",
         "855629a3-3aa6-47cc-b41a-fee232ec68f9": "data_creacio",
         "be726dc0-0aed-4c99-9df1-ad31dfa82756": "comentari",
-        "fcaf5124-49ba-4c3c-9889-41892590761c": "usuari_usuari_id",
-        "c441ba00-00e5-468f-89d5-81a9e50bb8d9": "comentari_comentari_id",
+        "fcaf5124-49ba-4c3c-9889-41892590761c": "usuari_id",
+        "c441ba00-00e5-468f-89d5-81a9e50bb8d9": "comentari_id",
         "b273df38-e375-436f-9b49-c2234311eca0": "value",
         "c908fd44-47c7-414b-b53d-8b71359a553a": "data",
         "fc060c16-b123-4b88-8400-c611082e0e51": "like_dislike_comentari",
-        "e42f397f-ca8f-4d43-8b31-66ab8a09fc8a": "fk_video_usuari",
-        "9c0fd4ef-56f2-40eb-8b9c-7f7ee528c9ce": "fk_canal_usuari1",
-        "58ab9bb1-cb84-44f2-a48a-1593fa80e77a": "fk_usuari_has_canal_usuari1",
-        "9112df4f-56f6-48c0-8d07-93bfea85b5a1": "fk_usuari_has_canal_canal1",
-        "7a9b9671-02b2-4d81-ac11-cf749c79a822": "fk_usuari_has_video_usuari1",
-        "2e89fe7f-8c36-442b-be1f-3fcad3330a28": "fk_usuari_has_video_video1",
-        "4990a87c-4d69-407b-8c5b-07ebfebb9482": "fk_playlist_usuari1",
-        "7a234250-e7ac-44b8-a6c3-8729d7d4fa35": "fk_usuari_has_video_usuari2",
-        "362e273a-1c11-4e1c-8e0b-4aba4b3c5569": "fk_usuari_has_video_video2",
-        "955804ff-d4e2-4803-b556-1d9b1bbedf73": "fk_usuari_has_comentari_usuari1",
-        "3031e1e8-f606-4b6d-913d-f992c2abb1c3": "fk_usuari_has_comentari_comentari1",
         "75b21390-4560-4705-a4c3-22eefcf4713c": "etiquetas",
-        "ee1ed738-aed0-4256-bc57-1f70ebc8c6ef": "fk video.etiquetas.[0] to video_etiqueta._id",
         "f9ee5307-28ae-4c8b-a5ee-183ad6bbf553": "videos",
-        "90509f4a-45a5-468b-b1d9-0ec0d47b480a": "fk playlist.videos.[0] to video._id"
+        "90509f4a-45a5-468b-b1d9-0ec0d47b480a": "fk playlist.videos.[0] to video._id",
+        "274c12a3-222f-4112-97ac-1047dda85eef": "fk video.usuari_id to usuari._id",
+        "1366b6d7-4899-41c6-be42-219e38ff034d": "fk video.etiquetas.[0] to video_etiqueta._id",
+        "88ee1037-0cc5-4b2e-9b69-55925a9a970a": "fk like_dislike_video.video_id to video._id",
+        "0dc32492-d724-49da-bf02-86f33f73e82a": "fk like_dislike_video.usuari_id to usuari._id",
+        "9264efa2-70d2-4e9a-bce2-385af1a201fb": "fk playlist.usuari_id to usuari._id",
+        "ba6b9e6a-7f37-498a-a980-3ebb28798b89": "fk suscriptors_canal.usuari_id to usuari._id",
+        "74f37545-8850-4502-b25d-f54a19ffe6ea": "fk suscriptors_canal.canal_id to canal._id",
+        "f787a266-c137-458a-8552-498000c797ad": "fk canal.usuari_id to usuari._id",
+        "3f9640b2-53fc-4998-a031-a9e114f6d0d6": "fk comentari.usuari_id to usuari._id",
+        "fa0bd588-daa4-489c-ac1d-07fe38544993": "fk comentari.video_id to video._id",
+        "b60c9c83-081c-404f-bbe2-70a8f5e29376": "fk like_dislike_comentari.usuari_usuari_id to usuari._id",
+        "be21a62a-7664-435c-bddb-6435657c7105": "fk like_dislike_comentari.comentari_comentari_id to comentari.comentari_id"
     },
     "definitions": {
         "type": "definitions",
@@ -1970,7 +2042,7 @@
         "validationErrors": {}
     },
     "code": "",
-    "lastModifTS": "2022-09-29T03:06:59.035Z",
+    "lastModifTS": "2022-09-29T03:38:32.440Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -2043,7 +2115,7 @@
                         "GUID": "be726dc0-0aed-4c99-9df1-ad31dfa82756",
                         "x": 105,
                         "y": 497,
-                        "width": 226,
+                        "width": 224,
                         "height": 123,
                         "color": {}
                     },
@@ -2051,7 +2123,7 @@
                         "GUID": "fc060c16-b123-4b88-8400-c611082e0e51",
                         "x": 98,
                         "y": 317,
-                        "width": 288,
+                        "width": 245,
                         "height": 105,
                         "color": {}
                     }

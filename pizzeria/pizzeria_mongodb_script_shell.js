@@ -172,7 +172,7 @@ db.createCollection("comanda", {
                     "bsonType": "objectId",
                     "title": "_id"
                 },
-                "client_client_id": {
+                "client_id": {
                     "bsonType": "objectId"
                 },
                 "data_registre": {
@@ -209,7 +209,7 @@ db.createCollection("comanda", {
             "additionalProperties": false,
             "required": [
                 "_id",
-                "client_client_id",
+                "client_id",
                 "data_registre",
                 "tipo"
             ]

@@ -343,9 +343,6 @@ db.createCollection("comentari", {
                 "_id": {
                     "bsonType": "objectId"
                 },
-                "comentari_id": {
-                    "bsonType": "objectId"
-                },
                 "usuari_id": {
                     "bsonType": "objectId"
                 },
@@ -362,7 +359,7 @@ db.createCollection("comentari", {
             },
             "additionalProperties": false,
             "required": [
-                "comentari_id",
+                "_id",
                 "usuari_id",
                 "video_id",
                 "text",
@@ -387,10 +384,10 @@ db.createCollection("like_dislike_comentari", {
                 "_id": {
                     "bsonType": "objectId"
                 },
-                "usuari_usuari_id": {
+                "usuari_id": {
                     "bsonType": "objectId"
                 },
-                "comentari_comentari_id": {
+                "comentari_id": {
                     "bsonType": "objectId"
                 },
                 "value": {
@@ -406,8 +403,8 @@ db.createCollection("like_dislike_comentari", {
             },
             "additionalProperties": false,
             "required": [
-                "usuari_usuari_id",
-                "comentari_comentari_id",
+                "usuari_id",
+                "comentari_id",
                 "value",
                 "data"
             ]
