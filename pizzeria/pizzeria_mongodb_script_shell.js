@@ -1,4 +1,4 @@
-use Pizzeria;
+db = client.db("Pizzeria");
 
 db.createCollection("client", {
     "capped": false,

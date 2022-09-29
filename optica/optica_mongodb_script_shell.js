@@ -1,5 +1,4 @@
-
-use optica;
+db = client.db("optica");
 
 db.createCollection("proveidor", {
     "capped": false,

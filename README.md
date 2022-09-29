@@ -15,16 +15,16 @@ docker compose up
 ### Ejercicio 1: Optica
 Archivos
 - [MongoDB_model_optica.hck.json](./optica/MongoDB_model_optica.hck.json): Modelo definido utilizando Hackolade
-- [optica_mongodb_script_shell.json](./optica/optica_mongodb_script_shell.json): MongoDb script
-- [optica_sample_data_shell.json](./optica/optica_sample_data_shell.json): Ejemplo de dato a ser insertado
+- [optica_mongodb_script_shell.js](./optica/optica_mongodb_script_shell.js): MongoDb script
+- [optica_mongodb_sample_data_shell.js](./optica/optica_mongodb_sample_data_shell.js): Ejemplo de dato a ser insertado
 - [optica.png](./optica/optica.png): Imagen del modelo definido
 ![Modelo optica](./optica/optica.png)
 
 ### Ejercicio 2: Pizzeria
 Archivos
 - [MongoDB_model_pizzeria.hck.json](./pizzeria/MongoDB_model_pizzeria.hck.json): Modelo definido utilizando Hackolade
-- [pizzeria_mongodb_script_shell.json](./pizzeria/pizzeria_mongodb_script_shell.json): MongoDb script
-- [pizzeria_sample_data_shell.json](./pizzeria/pizzeria_mongodb_data_shell.json): Ejemplo de dato a ser insertado
+- [pizzeria_mongodb_script_shell.js](./pizzeria/pizzeria_mongodb_script_shell.js): MongoDb script
+- [pizzeria_mongodb_sample_data_shell.js](./pizzeria/pizzeria_mongodb_sample_data_shell.js): Ejemplo de dato a ser insertado
 - [pizzeria.png](./pizzeria/pizzeria.png): Imagen del modelo definido
 ![Modelo pizzeria](./pizzeria/pizzeria.png)
 
