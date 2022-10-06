@@ -13,6 +13,7 @@ docker compose up
 ## Ejercicio 1: Optica
 Archivos
 - [MongoDB_model_optica.hck.json](./optica/MongoDB_model_optica.hck.json): Modelo definido utilizando Hackolade
+- [optica-sample.js](./optica/optica-sample.js): Archivo de ejemplo para creación de la base de datos
 - [optica-tablas.png](./optica/optica-tablas.png): Imagen del modelo definido
 
 ![Modelo optica](./optica/optica-tablas.png)
@@ -20,6 +21,7 @@ Archivos
 ## Ejercicio 2: Pizzeria
 Archivos
 - [MongoDB_model_pizzeria.hck.json](./pizzeria/MongoDB_model_pizzeria.hck.json): Modelo definido utilizando Hackolade
+- [pizzeria-sample.js](./pizzeria/pizzeria-sample.js): Archivo de ejemplo para creación de la base de datos
 - [pizzaria-tablas.png](./pizzeria/pizzaria-tablas.png): Imagen del modelo definido
 
 ![Modelo pizzeria](./pizzeria/pizzaria-tablas.png)
