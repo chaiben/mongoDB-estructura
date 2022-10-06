@@ -22,6 +22,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "2c268ea1-e098-4b9e-9ecf-96d47e53b263",
+                    "sample": "Diabola",
                     "error": {}
                 },
                 {
@@ -30,6 +31,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "990b41a8-f6b8-4c66-83ed-73fa3e46835f",
+                    "sample": "¡Pizza picante!! No apta para angelitos...",
                     "error": {}
                 },
                 {
@@ -38,6 +40,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "773bece2-1bff-4f39-a27f-2d21c5789e4b",
+                    "sample": "https://api.lorem.space/image/pizza?w=150&h=220",
                     "error": {}
                 },
                 {
@@ -46,6 +49,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "37f30a1a-b9c5-46ce-a6b6-335943736c42",
+                    "sample": "11.35",
                     "error": {}
                 },
                 {
@@ -54,6 +58,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "b3e6d942-bbe2-41d8-bfbc-977a892e22b3",
+                    "sample": "pizza",
                     "error": {}
                 },
                 {
@@ -62,6 +67,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "c8ef7342-91f8-43a0-86b8-7f5c9b828bf2",
+                    "sample": "picantes",
                     "error": {}
                 }
             ],
@@ -106,6 +112,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "99c5e88f-c7b3-4a12-a186-7ff4a7c36c8b",
+                    "sample": "Paco",
                     "error": {}
                 },
                 {
@@ -114,6 +121,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "a9a97392-80c7-4ba5-a9ea-90be96903129",
+                    "sample": "Polo",
                     "error": {}
                 },
                 {
@@ -128,6 +136,7 @@
                             "isActivated": true,
                             "type": "string",
                             "GUID": "51c1e354-db71-48a7-abf4-d0398f4b6fa7",
+                            "sample": "Paralell",
                             "error": {}
                         },
                         {
@@ -136,6 +145,7 @@
                             "isActivated": true,
                             "type": "string",
                             "GUID": "37437d0f-f452-4bdd-8d12-f7b9ab4ce0b6",
+                            "sample": "33",
                             "error": {}
                         },
                         {
@@ -144,6 +154,7 @@
                             "isActivated": true,
                             "type": "string",
                             "GUID": "f196d4b0-6029-4195-9acb-fc1d7556c593",
+                            "sample": "2",
                             "error": {}
                         },
                         {
@@ -152,6 +163,7 @@
                             "isActivated": true,
                             "type": "string",
                             "GUID": "2cba1bac-a253-47f5-b8f9-1e5f65edab98",
+                            "sample": "B",
                             "error": {}
                         },
                         {
@@ -160,6 +172,7 @@
                             "isActivated": true,
                             "type": "string",
                             "GUID": "e5df5f2d-ea53-44b0-b8af-03fd53fba067",
+                            "sample": "Barcelona",
                             "error": {}
                         },
                         {
@@ -168,6 +181,7 @@
                             "isActivated": true,
                             "type": "string",
                             "GUID": "8dd95583-ba9b-4d4c-9ec4-f38861257bd5",
+                            "sample": "08001",
                             "error": {}
                         },
                         {
@@ -176,6 +190,7 @@
                             "isActivated": true,
                             "type": "string",
                             "GUID": "11807f03-e983-4251-9260-4442af447e32",
+                            "sample": "España",
                             "error": {}
                         }
                     ],
@@ -189,6 +204,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "fd57dcc7-0f77-4ea7-be5d-277f32d1205b",
+                    "sample": "677878990",
                     "error": {}
                 },
                 {
@@ -197,6 +213,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "4e7f77b0-ae59-43c6-974a-e84fc79aa904",
+                    "sample": "paco.polo@hotmail.com",
                     "error": {}
                 }
             ],
@@ -238,6 +255,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "f590dd76-8831-49d1-9600-abfdb9e5bc5d",
+                    "sample": "Rambla del Raval",
                     "error": {}
                 },
                 {
@@ -246,6 +264,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "a1756340-7c1b-438d-b6a7-fa5588994469",
+                    "sample": "08001",
                     "error": {}
                 },
                 {
@@ -254,6 +273,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "3f52f59e-0703-4985-a302-2ce92c0a8b19",
+                    "sample": "Barcelona",
                     "error": {}
                 },
                 {
@@ -262,6 +282,7 @@
                     "isActivated": true,
                     "type": "string",
                     "GUID": "1c18cc72-7d8d-4809-9ede-7c007ec7b66c",
+                    "sample": "Barcelona",
                     "error": {}
                 },
                 {
@@ -307,7 +328,21 @@
                                     "isActivated": true,
                                     "type": "string",
                                     "GUID": "51b9043b-e337-4de7-86f8-6f1152984b61",
-                                    "error": {}
+                                    "error": {
+                                        "enum": false,
+                                        "enums": [
+                                            false,
+                                            false
+                                        ],
+                                        "exampleItems": [
+                                            false,
+                                            false
+                                        ]
+                                    },
+                                    "enum": [
+                                        "domicili",
+                                        "recollir"
+                                    ]
                                 },
                                 {
                                     "name": "repartidor",
@@ -396,6 +431,7 @@
                                     "isActivated": true,
                                     "type": "string",
                                     "GUID": "90e8a5f8-61b8-4f80-9112-e853529f4bc9",
+                                    "sample": "Manuel",
                                     "error": {}
                                 },
                                 {
@@ -404,6 +440,7 @@
                                     "isActivated": true,
                                     "type": "string",
                                     "GUID": "37641551-3660-4632-9047-8362f81dbaab",
+                                    "sample": "Speed",
                                     "error": {}
                                 },
                                 {
@@ -412,6 +449,7 @@
                                     "isActivated": true,
                                     "type": "string",
                                     "GUID": "393a12e6-386a-4725-b180-4c5c81269a93",
+                                    "sample": "X12332123",
                                     "error": {}
                                 },
                                 {
@@ -420,6 +458,7 @@
                                     "isActivated": true,
                                     "type": "string",
                                     "GUID": "0faddee1-d740-457b-973f-3fdd3a39efe9",
+                                    "sample": "612312332",
                                     "error": {}
                                 },
                                 {
@@ -428,7 +467,22 @@
                                     "isActivated": true,
                                     "type": "string",
                                     "GUID": "e28ac838-0dcc-48d5-b9be-679ae8855b5f",
-                                    "error": {}
+                                    "sample": "repartidor",
+                                    "error": {
+                                        "enum": false,
+                                        "enums": [
+                                            false,
+                                            false
+                                        ],
+                                        "exampleItems": [
+                                            false,
+                                            false
+                                        ]
+                                    },
+                                    "enum": [
+                                        "repartidor",
+                                        "cuiner"
+                                    ]
                                 }
                             ],
                             "additionalProperties": false,
@@ -614,7 +668,7 @@
             "modelName": false
         }
     },
-    "lastModifTS": "2022-10-05T08:21:43.463Z",
+    "lastModifTS": "2022-10-06T07:47:35.896Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
