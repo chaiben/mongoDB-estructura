@@ -26,14 +26,13 @@ Archivos
 
 ![Modelo pizzeria](./pizzeria/pizzaria-tablas.png)
 
-<!-- ### Ejercicio 3: Youtube
+### Ejercicio 3: Youtube
 Archivos
 - [MongoDB_model_youtube.hck.json](./youtube/MongoDB_model_youtube.hck.json): Modelo definido utilizando Hackolade
-- [youtube_mongodb_script_shell.js](./youtube/youtube_mongodb_script_shell.js): MongoDb script
-- [youtube_mongodb_sample_data_shell.js](./youtube/youtube_mongodb_sample_data_shell.js): Ejemplo de dato a ser insertado
-- [youtube.png](./youtube/youtube.png): Imagen del modelo definido
-![Modelo youtube](./youtube/youtube.png)
--->
+- [youtube-sample.js](./youtube/youtube-sample.js): rchivo de ejemplo para creación de la base de datos
+- [youtube-tablas.png](./youtube/youtube-tablas.png): Imagen del modelo definido
+![Modelo youtube](./youtube/youtube-tablas.png)
+
 
 ## Programas utilizados
 - [Hackolade](https://hackolade.com/): Programa para modelaje de la base de datos

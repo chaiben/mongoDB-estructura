@@ -22,13 +22,7 @@
                         "4990a87c-4d69-407b-8c5b-07ebfebb9482",
                         "7a234250-e7ac-44b8-a6c3-8729d7d4fa35",
                         "955804ff-d4e2-4803-b556-1d9b1bbedf73",
-                        "274c12a3-222f-4112-97ac-1047dda85eef",
-                        "0dc32492-d724-49da-bf02-86f33f73e82a",
-                        "9264efa2-70d2-4e9a-bce2-385af1a201fb",
-                        "ba6b9e6a-7f37-498a-a980-3ebb28798b89",
-                        "f787a266-c137-458a-8552-498000c797ad",
-                        "3f9640b2-53fc-4998-a031-a9e114f6d0d6",
-                        "b60c9c83-081c-404f-bbe2-70a8f5e29376"
+                        "e4cab12c-fde4-42e4-99de-ff31afc30ece"
                     ],
                     "error": {},
                     "sources": [
@@ -99,7 +93,6 @@
                     "maxLength": 60,
                     "primaryKey": false,
                     "GUID": "9f6e58d0-ce65-4696-b99a-94a8edfcb6df",
-                    "error": {},
                     "sources": [
                         {
                             "GUID": "ad8ee730-c684-479b-b78b-55202a5c24f0",
@@ -111,7 +104,9 @@
                             "lineageSourceContainerBusName": "youtubis",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "sample": "Andreas",
+                    "error": {}
                 },
                 {
                     "code": "",
@@ -204,6 +199,516 @@
                             "lineageSourceContainerTechName": ""
                         }
                     ]
+                },
+                {
+                    "name": "videos",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "array",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "document",
+                            "properties": [
+                                {
+                                    "name": "_id",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "objectId",
+                                    "GUID": "37c57b55-f6f3-4448-b0b7-146ae92b4d8a",
+                                    "error": {},
+                                    "childRelationships": [
+                                        "3d551f42-8a8f-4b5d-954e-37c132add0c1"
+                                    ]
+                                },
+                                {
+                                    "name": "nom",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "GUID": "5bdcca49-8624-4963-9b22-ca4c9065b509",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "descripcio",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "GUID": "4c6f46cd-7ffc-4e98-821a-d054b9f052c7",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "grandaria",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "numeric",
+                                    "GUID": "b6c8ca92-db9e-4dd7-b6e2-34194e3f7354",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "nom_arxiu",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "GUID": "574515f4-1eb5-4831-a118-cf059fd174b9",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "durada",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "numeric",
+                                    "GUID": "229a9043-3ead-4553-a638-537b8dc19d62",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "thumbnail",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "GUID": "098111e4-5672-4a27-8df5-cc03cb9e8349",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "nombre_reproducio",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "numeric",
+                                    "GUID": "741e443f-f5a6-4a09-b64a-df186ed32a90",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "nombre_likes",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "numeric",
+                                    "GUID": "8e6d3a13-8853-42b1-9262-cc87ef2e44b5",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "nombre_dislikes",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "numeric",
+                                    "GUID": "290cdd94-6a11-4903-a34d-d427e0503698",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "estat",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "GUID": "6a31d010-e5bd-4e45-a3a3-b8ae55123418",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "etiquetes",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "array",
+                                    "properties": [
+                                        {
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "type": "document",
+                                            "properties": [
+                                                {
+                                                    "name": "_id",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "objectId",
+                                                    "GUID": "23718ecc-cbd4-470c-9e98-6c18b5ed9e74",
+                                                    "error": {}
+                                                },
+                                                {
+                                                    "name": "nom",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "string",
+                                                    "GUID": "10b67cfd-8769-40c0-afd3-6e2d4853e8ba",
+                                                    "error": {}
+                                                }
+                                            ],
+                                            "additionalProperties": false,
+                                            "GUID": "53406894-3e20-4414-ab62-d37c8ad4b014",
+                                            "arrayItem": true,
+                                            "arrayParentType": "array",
+                                            "error": {},
+                                            "displayName": "etiqueta"
+                                        }
+                                    ],
+                                    "additionalItems": true,
+                                    "GUID": "6fb193f2-2058-479a-97c9-c6ea2f0ecd1e",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "data_publicacio",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "date",
+                                    "primaryKey": false,
+                                    "GUID": "8a560c58-338b-4aa3-be51-e559a67d9916",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "lista_likes",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "array",
+                                    "properties": [
+                                        {
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "type": "document",
+                                            "properties": [
+                                                {
+                                                    "name": "usuari_id",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "objectId",
+                                                    "GUID": "a84d76af-8f71-4e8e-af2e-2256fc7ee25c",
+                                                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                                                    "foreignField": [
+                                                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                                                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                                                    ],
+                                                    "relationshipType": "Foreign Key",
+                                                    "parentRelationship": "e4cab12c-fde4-42e4-99de-ff31afc30ece",
+                                                    "error": {}
+                                                },
+                                                {
+                                                    "name": "value",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "numeric",
+                                                    "GUID": "06fe3404-93b1-4763-a95e-222faf4d6f19",
+                                                    "error": {
+                                                        "enum": false,
+                                                        "enums": [
+                                                            false,
+                                                            false
+                                                        ],
+                                                        "exampleItems": [
+                                                            false,
+                                                            false
+                                                        ]
+                                                    },
+                                                    "enum": [
+                                                        -1,
+                                                        1
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "data",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "date",
+                                                    "primaryKey": false,
+                                                    "GUID": "99d51fe4-0a56-4ba5-b6bf-2e1df755a428",
+                                                    "error": {}
+                                                }
+                                            ],
+                                            "additionalProperties": false,
+                                            "GUID": "f497fedd-0656-4071-aa6e-56da90d2fa86",
+                                            "arrayItem": true,
+                                            "arrayParentType": "array",
+                                            "error": {},
+                                            "displayName": "like_dislike"
+                                        }
+                                    ],
+                                    "additionalItems": true,
+                                    "GUID": "79925780-9e93-4e4c-a6df-8a859fe4b054",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "comentaris",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "array",
+                                    "properties": [
+                                        {
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "type": "document",
+                                            "properties": [
+                                                {
+                                                    "name": "_id",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "objectId",
+                                                    "GUID": "2640163a-ecc9-43d4-b227-cf00c373fc44",
+                                                    "primaryKey": false,
+                                                    "error": {}
+                                                },
+                                                {
+                                                    "name": "text",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "string",
+                                                    "GUID": "6b817594-9d5a-4204-93c5-49f7228c8e09",
+                                                    "error": {}
+                                                },
+                                                {
+                                                    "name": "data",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "date",
+                                                    "primaryKey": false,
+                                                    "GUID": "5749d758-3bf7-4dd9-a89f-3ebc0925045c",
+                                                    "error": {}
+                                                },
+                                                {
+                                                    "name": "lista_likes",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "array",
+                                                    "properties": [
+                                                        {
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "document",
+                                                            "properties": [
+                                                                {
+                                                                    "name": "usuari_id",
+                                                                    "hackoladeMeta": {},
+                                                                    "isActivated": true,
+                                                                    "type": "objectId",
+                                                                    "GUID": "3e861a84-e16b-448c-9a7f-2e5e6274c93f",
+                                                                    "error": {}
+                                                                },
+                                                                {
+                                                                    "name": "value",
+                                                                    "hackoladeMeta": {},
+                                                                    "isActivated": true,
+                                                                    "type": "numeric",
+                                                                    "GUID": "0ca75d78-560c-4973-8715-b350a1b0d64f",
+                                                                    "error": {
+                                                                        "enum": false,
+                                                                        "enums": [
+                                                                            false,
+                                                                            false
+                                                                        ],
+                                                                        "exampleItems": [
+                                                                            false,
+                                                                            false
+                                                                        ]
+                                                                    },
+                                                                    "enum": [
+                                                                        -1,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "data",
+                                                                    "hackoladeMeta": {},
+                                                                    "isActivated": true,
+                                                                    "type": "date",
+                                                                    "primaryKey": false,
+                                                                    "GUID": "6d2fddef-0c4a-4263-9cb6-52af69355364",
+                                                                    "error": {}
+                                                                }
+                                                            ],
+                                                            "additionalProperties": false,
+                                                            "GUID": "a8496e54-2443-4b47-9126-257e553a5d5c",
+                                                            "arrayItem": true,
+                                                            "arrayParentType": "array",
+                                                            "error": {},
+                                                            "displayName": "like_dislike"
+                                                        }
+                                                    ],
+                                                    "additionalItems": true,
+                                                    "GUID": "82cb1e47-b85e-498d-bf36-be7c823c9b57",
+                                                    "error": {}
+                                                }
+                                            ],
+                                            "additionalProperties": false,
+                                            "GUID": "be8c769a-c6cb-4a94-98f6-53a0b7985212",
+                                            "arrayItem": true,
+                                            "arrayParentType": "array",
+                                            "error": {},
+                                            "displayName": "comentari"
+                                        }
+                                    ],
+                                    "additionalItems": true,
+                                    "GUID": "6d92c80f-2cfd-47e1-9b37-0ba999524ae5",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": false,
+                            "GUID": "07e62e7c-4f02-460d-bd28-0387a195bfbe",
+                            "arrayItem": true,
+                            "arrayParentType": "array",
+                            "error": {},
+                            "displayName": "video"
+                        }
+                    ],
+                    "additionalItems": true,
+                    "GUID": "61186ced-407f-46e4-8165-cdb535f07ce2",
+                    "error": {}
+                },
+                {
+                    "name": "canal",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "_id",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "objectId",
+                            "GUID": "ad82cabf-71a9-4d30-8a00-490d71e72b2e",
+                            "error": {},
+                            "childRelationships": [
+                                "3f4ec016-0b7d-49be-b05d-08d6fc0a39c8"
+                            ]
+                        },
+                        {
+                            "name": "nom",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "7087fcdb-64ec-4c1d-b9f6-f77849b3ed8b",
+                            "error": {}
+                        },
+                        {
+                            "name": "descripcio",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "6eb29d51-24e8-4e47-9384-06f4e669612f",
+                            "error": {}
+                        },
+                        {
+                            "name": "data_creacio",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "date",
+                            "primaryKey": false,
+                            "GUID": "167b3c8d-04a2-4c88-a6f2-925bf0e4ac64",
+                            "error": {}
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "GUID": "ef4823ab-a3ff-43c6-b8c7-cc1e1b5d42e8",
+                    "error": {}
+                },
+                {
+                    "name": "canales_suscrip",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "array",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "objectId",
+                            "GUID": "608d8916-7385-4c68-90ef-5c347367e9e1",
+                            "arrayItem": true,
+                            "arrayParentType": "array",
+                            "displayName": "canal_id",
+                            "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                            "foreignField": [
+                                "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                                "ef4823ab-a3ff-43c6-b8c7-cc1e1b5d42e8",
+                                "ad82cabf-71a9-4d30-8a00-490d71e72b2e"
+                            ],
+                            "relationshipType": "Foreign Key",
+                            "parentRelationship": "3f4ec016-0b7d-49be-b05d-08d6fc0a39c8",
+                            "error": {}
+                        }
+                    ],
+                    "additionalItems": true,
+                    "GUID": "05528978-0dc3-4698-8188-5c5ef8a66ba8",
+                    "error": {}
+                },
+                {
+                    "name": "playlists",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "array",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "document",
+                            "properties": [
+                                {
+                                    "name": "_id",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "objectId",
+                                    "GUID": "b53decab-cd58-4054-a36e-1b181a81f27f",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "nom",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "GUID": "e4cb74ae-fee6-4dc9-8461-9bcf4b1b02e6",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "data_creacio",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "date",
+                                    "primaryKey": false,
+                                    "GUID": "41e27568-557e-4a0e-bfd3-221752ed7c7a",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "estat",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "GUID": "a354e8e9-8566-4c7b-a36d-80651d54528a",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "lista_videos",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "array",
+                                    "properties": [
+                                        {
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "type": "objectId",
+                                            "GUID": "ff1aa64b-0751-49e1-9a70-b06226d12547",
+                                            "arrayItem": true,
+                                            "arrayParentType": "array",
+                                            "displayName": "video_id",
+                                            "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                                            "foreignField": [
+                                                "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                                                "61186ced-407f-46e4-8165-cdb535f07ce2",
+                                                "07e62e7c-4f02-460d-bd28-0387a195bfbe",
+                                                "37c57b55-f6f3-4448-b0b7-146ae92b4d8a"
+                                            ],
+                                            "relationshipType": "Foreign Key",
+                                            "parentRelationship": "3d551f42-8a8f-4b5d-954e-37c132add0c1",
+                                            "error": {}
+                                        }
+                                    ],
+                                    "additionalItems": true,
+                                    "GUID": "445cd6aa-ca45-4fc9-be9b-b26f7fb18489",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": false,
+                            "GUID": "9bb2500d-0606-4097-8481-e969517ad610",
+                            "arrayItem": true,
+                            "arrayParentType": "array",
+                            "error": {},
+                            "displayName": "playlist"
+                        }
+                    ],
+                    "additionalItems": true,
+                    "GUID": "41176143-c4d9-4196-8c4c-30743bed7180",
+                    "error": {}
                 }
             ],
             "definitions": {
@@ -232,1412 +737,14 @@
                 "validationErrors": {}
             },
             "error": {}
-        },
-        {
-            "collectionName": "video",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": true,
-                    "code": "",
-                    "required": true,
-                    "GUID": "0356c507-6a67-4fc6-b9a4-e791f43f4f49",
-                    "childRelationships": [
-                        "d3d66c99-4280-4d8e-9b3e-bdb5abcc3e10",
-                        "2e89fe7f-8c36-442b-be1f-3fcad3330a28",
-                        "3d9ae9ab-4441-412c-9a88-fddc7b19ade0",
-                        "362e273a-1c11-4e1c-8e0b-4aba4b3c5569",
-                        "90509f4a-45a5-468b-b1d9-0ec0d47b480a",
-                        "88ee1037-0cc5-4b2e-9b69-55925a9a970a",
-                        "fa0bd588-daa4-489c-ac1d-07fe38544993"
-                    ],
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "cf2c009a-5304-4afc-9855-5477cc408872",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "video_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "titol",
-                    "isActivated": true,
-                    "type": "string",
-                    "required": true,
-                    "maxLength": 128,
-                    "primaryKey": false,
-                    "GUID": "b3905efe-5b2b-428d-90d4-81a8f1f7712e",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "c3373ab3-33b5-43f3-a495-c60f1dc21cf0",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "titol",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "descripcio",
-                    "isActivated": true,
-                    "type": "string",
-                    "required": true,
-                    "maxLength": null,
-                    "primaryKey": false,
-                    "GUID": "396e9c47-2ab1-446a-8c30-2225f8bd01df",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "ea07ce51-d391-45d8-a25f-21fd7355d93e",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "descripcio",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "grandaria",
-                    "isActivated": true,
-                    "type": "numeric",
-                    "required": false,
-                    "primaryKey": false,
-                    "GUID": "99dfa1ad-0652-4a5a-9e3b-57868d357d91",
-                    "sources": [
-                        {
-                            "GUID": "efb5c5fb-bbfb-4560-8855-62ecf670bad6",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "grandaria",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "error": {}
-                },
-                {
-                    "code": "",
-                    "name": "nom_arxiu",
-                    "isActivated": true,
-                    "type": "string",
-                    "required": false,
-                    "maxLength": 128,
-                    "primaryKey": false,
-                    "GUID": "75f3cc84-74b4-46df-8885-bc1fcd28a45a",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "a1085e8c-2a3d-428a-91db-6d9853413fed",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "nom_arxiu",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "durada_video",
-                    "isActivated": true,
-                    "type": "numeric",
-                    "required": false,
-                    "primaryKey": false,
-                    "GUID": "b349082c-8560-4b6a-b5b9-3e4655003b98",
-                    "sources": [
-                        {
-                            "GUID": "f5d1c4c5-e21e-40f4-b9b0-886c2b4fb8b0",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "durada_video",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "error": {}
-                },
-                {
-                    "code": "",
-                    "name": "thumbnail_url",
-                    "isActivated": true,
-                    "type": "string",
-                    "required": false,
-                    "maxLength": 128,
-                    "primaryKey": false,
-                    "GUID": "947ca51f-85f0-4bbe-b9aa-5f1057072f19",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "d4b3b8c7-102e-49cb-81ca-e8ac9db86f44",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "thumbnail_url",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "num_reproduccions",
-                    "isActivated": true,
-                    "type": "numeric",
-                    "default": 0,
-                    "required": true,
-                    "primaryKey": false,
-                    "GUID": "bf4cbbd6-43ea-4980-a545-3a874f996190",
-                    "sources": [
-                        {
-                            "GUID": "b4f08d11-1cce-46f5-a677-44dd9c1c2d5c",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "num_reproduccions",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "error": {}
-                },
-                {
-                    "code": "",
-                    "name": "num_likes",
-                    "isActivated": true,
-                    "type": "numeric",
-                    "default": 0,
-                    "required": true,
-                    "primaryKey": false,
-                    "GUID": "90f77dab-f151-4671-ac3a-bd1861baae0f",
-                    "sources": [
-                        {
-                            "GUID": "cf586df5-92b4-4cbd-98f4-b1315157a718",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "num_likes",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "error": {}
-                },
-                {
-                    "code": "",
-                    "name": "num_dislikes",
-                    "isActivated": true,
-                    "type": "numeric",
-                    "default": 0,
-                    "required": true,
-                    "primaryKey": false,
-                    "GUID": "1330309b-6a81-42b0-8957-c778209e388c",
-                    "sources": [
-                        {
-                            "GUID": "0d0e3baf-fc27-4314-a879-9901502844cd",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "num_dislikes",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "error": {}
-                },
-                {
-                    "code": "",
-                    "name": "estats",
-                    "isActivated": true,
-                    "type": "string",
-                    "default": "privat",
-                    "required": true,
-                    "primaryKey": false,
-                    "GUID": "c89e341c-3fae-4f78-b4b4-96e4ddae50c8",
-                    "error": {
-                        "enum": false,
-                        "enums": [
-                            false,
-                            false,
-                            false
-                        ],
-                        "exampleItems": [
-                            false,
-                            false,
-                            false
-                        ]
-                    },
-                    "sources": [
-                        {
-                            "GUID": "a670ae43-15ff-4dad-ba32-9ed968985823",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "estats",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "enum": [
-                        "privat",
-                        "públic",
-                        "ocult"
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "data_publicacio",
-                    "isActivated": true,
-                    "type": "date",
-                    "primaryKey": false,
-                    "required": false,
-                    "default": "",
-                    "GUID": "a411a99f-30d2-426a-bcc4-93fe535cceac",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "b2526f0a-c05e-400e-bc3f-c8ebf09f38cf",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "data_publicacio",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "usuari_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": false,
-                    "code": "",
-                    "required": true,
-                    "GUID": "ff5a874c-2f2c-4000-88b3-de088b93fd14",
-                    "sources": [
-                        {
-                            "GUID": "8898fd0b-5867-4f6b-9450-984ba44adb93",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "usuari_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "foreignField": [
-                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                    ],
-                    "relationshipType": "Foreign Key",
-                    "parentRelationship": "274c12a3-222f-4112-97ac-1047dda85eef",
-                    "error": {}
-                },
-                {
-                    "name": "etiquetas",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "array",
-                    "properties": [
-                        {
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "type": "objectId",
-                            "GUID": "16d8d164-1349-45bf-bf74-8f834cb8a610",
-                            "arrayItem": true,
-                            "arrayParentType": "array",
-                            "displayName": "video_etiqueta_id",
-                            "foreignCollection": "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
-                            "foreignField": [
-                                "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
-                                "c30ead7a-3538-478c-904e-d018c003539e"
-                            ],
-                            "relationshipType": "Foreign Key",
-                            "parentRelationship": "1366b6d7-4899-41c6-be42-219e38ff034d",
-                            "error": {}
-                        }
-                    ],
-                    "additionalItems": true,
-                    "GUID": "75b21390-4560-4705-a4c3-22eefcf4713c",
-                    "error": {}
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "1f9e2a09-5af7-4b9a-b1ed-660579e942d2"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-            "code": "",
-            "bucketId": "9b496532-3e7a-4c54-877b-e926c1c8e2c1",
-            "comments": "",
-            "description": "",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
-            "error": {}
-        },
-        {
-            "collectionName": "video_etiqueta",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": true,
-                    "code": "",
-                    "required": true,
-                    "GUID": "c30ead7a-3538-478c-904e-d018c003539e",
-                    "childRelationships": [
-                        "68f3c097-cb40-47fc-9186-d7ddd8e91f82",
-                        "ee1ed738-aed0-4256-bc57-1f70ebc8c6ef",
-                        "1366b6d7-4899-41c6-be42-219e38ff034d"
-                    ],
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "6acf23c2-b8e6-4367-a7e3-cfd321c2be8d",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "video_etiqueta_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video_etiqueta",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "nom",
-                    "isActivated": true,
-                    "type": "string",
-                    "required": true,
-                    "maxLength": 50,
-                    "primaryKey": false,
-                    "GUID": "7b7f4b96-f108-484f-8426-79c69d66bdda",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "ee8ae883-941e-4b9c-99da-dc99b1ae3c52",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "nom",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "video_etiqueta",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "a4bd44b9-34e7-4afd-abe9-1d7bd45a7ed7"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
-            "code": "",
-            "bucketId": "9b496532-3e7a-4c54-877b-e926c1c8e2c1",
-            "comments": "",
-            "description": "",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            }
-        },
-        {
-            "collectionName": "canal",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": true,
-                    "code": "",
-                    "required": true,
-                    "GUID": "e4dfe1ab-c149-4865-a3c5-61422a79fe03",
-                    "childRelationships": [
-                        "9112df4f-56f6-48c0-8d07-93bfea85b5a1",
-                        "74f37545-8850-4502-b25d-f54a19ffe6ea"
-                    ],
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "bdc333a5-a3b8-435c-9e43-86133ba19b6d",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "canal_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "canal",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "nom",
-                    "isActivated": true,
-                    "type": "string",
-                    "required": true,
-                    "maxLength": 128,
-                    "primaryKey": false,
-                    "GUID": "60b453f9-e63a-453d-8b76-b05c1b86fde1",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "a3efbe5b-0bc4-45e9-b878-764b6045c35e",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "nom",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "canal",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "descripcio",
-                    "isActivated": true,
-                    "type": "string",
-                    "required": false,
-                    "maxLength": null,
-                    "primaryKey": false,
-                    "GUID": "44da6283-1676-402e-b50e-e115d63efbfd",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "c582a8fe-afeb-4cc8-b730-076160f63607",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "descripcio",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "canal",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "data_creacio",
-                    "isActivated": true,
-                    "type": "date",
-                    "primaryKey": false,
-                    "required": true,
-                    "default": "",
-                    "GUID": "b6afffae-90a2-45dc-887a-bfb3d2a6cae0",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "5577f4e0-fb8a-4d6e-b47a-51b2a7d08393",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "data_creacio",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "canal",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "name": "usuari_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": false,
-                    "code": "",
-                    "required": true,
-                    "GUID": "71a31523-2df6-4a03-befe-be33a968c6ae",
-                    "sources": [
-                        {
-                            "GUID": "f1f110b5-d3b4-4bba-ba2c-aedee67264fd",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "usuari_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "canal",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "foreignField": [
-                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                    ],
-                    "relationshipType": "Foreign Key",
-                    "parentRelationship": "f787a266-c137-458a-8552-498000c797ad",
-                    "error": {}
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "b57a4d4a-6845-4484-9996-713c5d8a7d72"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
-            "code": "",
-            "bucketId": "9b496532-3e7a-4c54-877b-e926c1c8e2c1",
-            "comments": "",
-            "description": "",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
-            "error": {}
-        },
-        {
-            "collectionName": "suscriptors_canal",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "usuari_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": true,
-                    "code": "",
-                    "required": true,
-                    "GUID": "a964c6c5-28c5-4e1a-b007-e536f20a9d8e",
-                    "sources": [
-                        {
-                            "GUID": "c0ec9e56-8085-434d-a4ff-41643295bf2b",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "usuari_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "suscriptors_canal",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "foreignField": [
-                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                    ],
-                    "relationshipType": "Foreign Key",
-                    "parentRelationship": "ba6b9e6a-7f37-498a-a980-3ebb28798b89",
-                    "error": {}
-                },
-                {
-                    "name": "canal_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": true,
-                    "code": "",
-                    "required": true,
-                    "GUID": "070d0737-cf56-490c-bc46-a23c2b529836",
-                    "sources": [
-                        {
-                            "GUID": "67b435bf-b337-4575-bce9-a2da7cccfbf2",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "canal_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "suscriptors_canal",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "foreignCollection": "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
-                    "foreignField": [
-                        "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
-                        "e4dfe1ab-c149-4865-a3c5-61422a79fe03"
-                    ],
-                    "relationshipType": "Foreign Key",
-                    "parentRelationship": "74f37545-8850-4502-b25d-f54a19ffe6ea",
-                    "error": {}
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "a306ebab-6779-4451-a88e-5cabf77c0802"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "21e2d2a4-475e-4811-917f-1f1471e41ffc",
-            "code": "",
-            "bucketId": "9b496532-3e7a-4c54-877b-e926c1c8e2c1",
-            "comments": "",
-            "description": "",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
-            "error": {}
-        },
-        {
-            "collectionName": "like_dislike_video",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "usuari_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": true,
-                    "code": "",
-                    "required": true,
-                    "GUID": "88b6c732-5422-48f6-87fa-56d869a48d43",
-                    "sources": [
-                        {
-                            "GUID": "cbc39746-5157-486e-8b47-6169a7406726",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "usuari_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "like_dislike_video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "foreignField": [
-                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                    ],
-                    "relationshipType": "Foreign Key",
-                    "parentRelationship": "0dc32492-d724-49da-bf02-86f33f73e82a",
-                    "error": {}
-                },
-                {
-                    "name": "video_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": true,
-                    "code": "",
-                    "required": true,
-                    "GUID": "daf8cbdd-b268-4f2c-b3ab-db0d18ca1151",
-                    "sources": [
-                        {
-                            "GUID": "99989fb0-7b13-492c-8daf-3bfaa4b2e53b",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "video_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "like_dislike_video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "foreignCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                    "foreignField": [
-                        "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                        "0356c507-6a67-4fc6-b9a4-e791f43f4f49"
-                    ],
-                    "relationshipType": "Foreign Key",
-                    "parentRelationship": "88ee1037-0cc5-4b2e-9b69-55925a9a970a",
-                    "error": {}
-                },
-                {
-                    "name": "value",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "numeric",
-                    "primaryKey": false,
-                    "code": "",
-                    "required": true,
-                    "GUID": "4c714652-806c-4158-99dd-3e798ac56c08",
-                    "error": {
-                        "enum": false,
-                        "enums": [
-                            false,
-                            false
-                        ],
-                        "exampleItems": [
-                            false,
-                            false
-                        ]
-                    },
-                    "sources": [
-                        {
-                            "GUID": "5825738d-dec7-4f8f-84a0-44e343e1c305",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "value",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "like_dislike_video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "enum": [
-                        1,
-                        -1
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "data",
-                    "isActivated": true,
-                    "type": "date",
-                    "primaryKey": false,
-                    "required": true,
-                    "default": "",
-                    "GUID": "bafb25eb-8b24-4d3a-b22a-7ee1b77387e9",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "c884072a-2098-408e-a10f-af7a1d841c08",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "data",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "like_dislike_video",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "4fb71cd0-a789-43aa-b6cb-2cb7588fdc94"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "0134122d-1f2c-4a65-9ea6-a219d6910526",
-            "code": "",
-            "bucketId": "9b496532-3e7a-4c54-877b-e926c1c8e2c1",
-            "comments": "",
-            "description": "",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
-            "error": {}
-        },
-        {
-            "collectionName": "playlist",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": true,
-                    "code": "",
-                    "required": true,
-                    "GUID": "d3cc71d5-85b6-4e51-b971-c93c453c729a",
-                    "childRelationships": [
-                        "50e622bf-f95e-4439-a02b-f5d8307bd675"
-                    ],
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "7305bf4f-ef15-42fe-a2f5-4864a8169b51",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "playlist_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "playlist",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "nom",
-                    "isActivated": true,
-                    "type": "string",
-                    "required": true,
-                    "maxLength": 128,
-                    "primaryKey": false,
-                    "GUID": "e7075d1d-6895-49ec-abdc-65ec3688b54b",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "7cead4f8-fb89-479e-aa1b-7eb73f2a128d",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "nom",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "playlist",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "data_creacio",
-                    "isActivated": true,
-                    "type": "date",
-                    "primaryKey": false,
-                    "required": true,
-                    "default": "",
-                    "GUID": "7f56d288-e9c6-4e8a-8ce2-6ea2954c6877",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "15a317e5-e973-440f-86e9-6dc7920940cc",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "data_creacio",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "playlist",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "estat",
-                    "isActivated": true,
-                    "type": "string",
-                    "default": "privat",
-                    "required": true,
-                    "primaryKey": false,
-                    "GUID": "a0934c33-c1eb-4f87-b1d7-98be90c17f6e",
-                    "error": {
-                        "enum": false,
-                        "enums": [
-                            false,
-                            false
-                        ],
-                        "exampleItems": [
-                            false,
-                            false
-                        ]
-                    },
-                    "sources": [
-                        {
-                            "GUID": "e54daeff-81c6-4977-bf71-0d355bd8c0fb",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "estat",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "playlist",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "enum": [
-                        "privat",
-                        "public"
-                    ]
-                },
-                {
-                    "name": "usuari_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": false,
-                    "code": "",
-                    "required": true,
-                    "GUID": "0b40f1e4-5ffe-4a75-b2b9-182f67f7f98c",
-                    "sources": [
-                        {
-                            "GUID": "ab29909e-c2dd-46bc-a39a-b8dc292c5c6f",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "usuari_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "playlist",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "foreignField": [
-                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                    ],
-                    "relationshipType": "Foreign Key",
-                    "parentRelationship": "9264efa2-70d2-4e9a-bce2-385af1a201fb",
-                    "error": {}
-                },
-                {
-                    "name": "videos",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "array",
-                    "properties": [
-                        {
-                            "hackoladeMeta": {},
-                            "isActivated": true,
-                            "type": "objectId",
-                            "GUID": "889df41b-cf3d-4220-88b6-dcf6c20f5f80",
-                            "arrayItem": true,
-                            "arrayParentType": "array",
-                            "displayName": "video_id",
-                            "foreignCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                            "foreignField": [
-                                "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                                "0356c507-6a67-4fc6-b9a4-e791f43f4f49"
-                            ],
-                            "relationshipType": "Foreign Key",
-                            "parentRelationship": "90509f4a-45a5-468b-b1d9-0ec0d47b480a",
-                            "error": {}
-                        }
-                    ],
-                    "additionalItems": true,
-                    "GUID": "f9ee5307-28ae-4c8b-a5ee-183ad6bbf553",
-                    "error": {}
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "dda67f97-61d8-4be3-b12a-b5bb3a599e55"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "17137dba-4604-4781-9527-68052d28cd1c",
-            "code": "",
-            "bucketId": "9b496532-3e7a-4c54-877b-e926c1c8e2c1",
-            "comments": "",
-            "description": "",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
-            "error": {}
-        },
-        {
-            "collectionName": "comentari",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": true,
-                    "code": "",
-                    "required": true,
-                    "GUID": "1f6dae62-61a8-4530-9561-561304a30d75",
-                    "childRelationships": [
-                        "3031e1e8-f606-4b6d-913d-f992c2abb1c3",
-                        "be21a62a-7664-435c-bddb-6435657c7105"
-                    ],
-                    "sources": [
-                        {
-                            "GUID": "3cfb79b8-508c-41a9-ac2f-68d1e9b9ba23",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "comentari_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "comentari",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "error": {}
-                },
-                {
-                    "name": "usuari_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": false,
-                    "code": "",
-                    "required": true,
-                    "GUID": "ff78fb41-cc73-4481-b35d-70351aefdbc9",
-                    "sources": [
-                        {
-                            "GUID": "f62c8474-22ef-449b-a21c-55d858a325b8",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "usuari_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "comentari",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "foreignField": [
-                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                    ],
-                    "relationshipType": "Foreign Key",
-                    "parentRelationship": "3f9640b2-53fc-4998-a031-a9e114f6d0d6",
-                    "error": {}
-                },
-                {
-                    "name": "video_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": false,
-                    "code": "",
-                    "required": true,
-                    "GUID": "912272ca-24f5-4be4-90df-71c01211c15f",
-                    "sources": [
-                        {
-                            "GUID": "a0db3abb-864f-4e03-aa5d-4f5a1813bbc8",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "video_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "comentari",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "foreignCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                    "foreignField": [
-                        "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                        "0356c507-6a67-4fc6-b9a4-e791f43f4f49"
-                    ],
-                    "relationshipType": "Foreign Key",
-                    "parentRelationship": "fa0bd588-daa4-489c-ac1d-07fe38544993",
-                    "error": {}
-                },
-                {
-                    "code": "",
-                    "name": "text",
-                    "isActivated": true,
-                    "type": "string",
-                    "required": true,
-                    "maxLength": null,
-                    "primaryKey": false,
-                    "GUID": "08b52a9e-54e5-4593-8013-12a4f4347934",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "8d7fa39d-f067-47ea-923c-78068bcf8cc3",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "text",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "comentari",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "data_creacio",
-                    "isActivated": true,
-                    "type": "date",
-                    "primaryKey": false,
-                    "required": true,
-                    "default": "",
-                    "GUID": "855629a3-3aa6-47cc-b41a-fee232ec68f9",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "a64bccac-3047-489e-8346-a7a108161f9e",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "data_creacio",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "comentari",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "a72797ed-e13b-4837-9068-bf823524a795"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-            "code": "",
-            "bucketId": "9b496532-3e7a-4c54-877b-e926c1c8e2c1",
-            "comments": "",
-            "description": "",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
-            "error": {}
-        },
-        {
-            "collectionName": "like_dislike_comentari",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "usuari_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": true,
-                    "code": "",
-                    "required": true,
-                    "GUID": "fcaf5124-49ba-4c3c-9889-41892590761c",
-                    "sources": [
-                        {
-                            "GUID": "bceffcc4-a43d-4a52-ad09-bbe1dc86f9b8",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "usuari_usuari_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "like_dislike_comentari",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "foreignCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "foreignField": [
-                        "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                        "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                    ],
-                    "relationshipType": "Foreign Key",
-                    "parentRelationship": "b60c9c83-081c-404f-bbe2-70a8f5e29376",
-                    "error": {}
-                },
-                {
-                    "name": "comentari_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "primaryKey": true,
-                    "code": "",
-                    "required": true,
-                    "GUID": "c441ba00-00e5-468f-89d5-81a9e50bb8d9",
-                    "sources": [
-                        {
-                            "GUID": "40c39d57-abfa-4495-9b14-d80f285a2899",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "comentari_comentari_id",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "like_dislike_comentari",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "foreignCollection": "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-                    "foreignField": [
-                        "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-                        "1f6dae62-61a8-4530-9561-561304a30d75"
-                    ],
-                    "relationshipType": "Foreign Key",
-                    "parentRelationship": "be21a62a-7664-435c-bddb-6435657c7105",
-                    "error": {}
-                },
-                {
-                    "name": "value",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "numeric",
-                    "primaryKey": false,
-                    "code": "",
-                    "required": true,
-                    "GUID": "b273df38-e375-436f-9b49-c2234311eca0",
-                    "error": {
-                        "enum": false,
-                        "enums": [
-                            false,
-                            false
-                        ],
-                        "exampleItems": [
-                            false,
-                            false
-                        ]
-                    },
-                    "sources": [
-                        {
-                            "GUID": "22e6bd67-9f94-466a-ba4f-d6326b9950d4",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "value",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "like_dislike_comentari",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ],
-                    "enum": [
-                        1,
-                        -1
-                    ]
-                },
-                {
-                    "code": "",
-                    "name": "data",
-                    "isActivated": true,
-                    "type": "date",
-                    "primaryKey": false,
-                    "required": true,
-                    "default": "",
-                    "GUID": "c908fd44-47c7-414b-b53d-8b71359a553a",
-                    "error": {},
-                    "sources": [
-                        {
-                            "GUID": "f8607ba7-32d4-4377-8446-c5189545f643",
-                            "lineageSourceGUID": "91bcc931-4589-4aed-b74f-1d3db4d4e084",
-                            "lineageSourceAttrBusName": "data",
-                            "lineageSourceAttrTechName": "",
-                            "lineageSrcEntityBusName": "like_dislike_comentari",
-                            "lineageSrcEntityTechName": "",
-                            "lineageSourceContainerBusName": "youtubis",
-                            "lineageSourceContainerTechName": ""
-                        }
-                    ]
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "f7a6a7fd-9726-456e-9d33-dc2e3bf40901"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "validationLevel": "Off",
-            "validationAction": "Warn",
-            "storageEngineName": "WiredTiger",
-            "collectionUsers": [],
-            "indexes": [],
-            "collation": {},
-            "sharding": {
-                "unique": true,
-                "collation": "null"
-            },
-            "GUID": "fc060c16-b123-4b88-8400-c611082e0e51",
-            "code": "",
-            "bucketId": "9b496532-3e7a-4c54-877b-e926c1c8e2c1",
-            "comments": "",
-            "description": "",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            },
-            "error": {}
         }
     ],
     "buckets": [
         {
-            "name": "youtubis",
+            "name": "youtube",
             "type": "bucket",
             "collectionIds": [
-                "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
-                "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
-                "21e2d2a4-475e-4811-917f-1f1471e41ffc",
-                "0134122d-1f2c-4a65-9ea6-a219d6910526",
-                "17137dba-4604-4781-9527-68052d28cd1c",
-                "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-                "fc060c16-b123-4b88-8400-c611082e0e51"
+                "5c014738-8271-4324-acaf-2c1d2f5c8293"
             ],
             "backgroundColor": {
                 "r": 167,
@@ -1653,29 +760,7 @@
     "views": [],
     "relationships": [
         {
-            "name": "fk playlist.videos.[0] to video._id",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                    "0356c507-6a67-4fc6-b9a4-e791f43f4f49"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "17137dba-4604-4781-9527-68052d28cd1c",
-                    "f9ee5307-28ae-4c8b-a5ee-183ad6bbf553",
-                    "889df41b-cf3d-4220-88b6-dcf6c20f5f80"
-                ]
-            ],
-            "childCardinality": "1",
-            "GUID": "90509f4a-45a5-468b-b1d9-0ec0d47b480a",
-            "parentCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-            "childCollection": "17137dba-4604-4781-9527-68052d28cd1c"
-        },
-        {
-            "name": "fk video.usuari_id to usuari._id",
+            "name": "fk usuari.videos.[0].lista_likes.[0].usuari_id to usuari._id",
             "relationshipType": "Foreign Key",
             "parentField": [
                 [
@@ -1686,253 +771,74 @@
             "parentCardinality": "1",
             "childField": [
                 [
-                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                    "ff5a874c-2f2c-4000-88b3-de088b93fd14"
+                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "61186ced-407f-46e4-8165-cdb535f07ce2",
+                    "07e62e7c-4f02-460d-bd28-0387a195bfbe",
+                    "79925780-9e93-4e4c-a6df-8a859fe4b054",
+                    "f497fedd-0656-4071-aa6e-56da90d2fa86",
+                    "a84d76af-8f71-4e8e-af2e-2256fc7ee25c"
                 ]
             ],
             "childCardinality": "1",
-            "GUID": "274c12a3-222f-4112-97ac-1047dda85eef",
+            "GUID": "e4cab12c-fde4-42e4-99de-ff31afc30ece",
             "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57"
+            "childCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293"
         },
         {
-            "name": "fk video.etiquetas.[0] to video_etiqueta._id",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
-                    "c30ead7a-3538-478c-904e-d018c003539e"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                    "75b21390-4560-4705-a4c3-22eefcf4713c",
-                    "16d8d164-1349-45bf-bf74-8f834cb8a610"
-                ]
-            ],
-            "childCardinality": "1",
-            "GUID": "1366b6d7-4899-41c6-be42-219e38ff034d",
-            "parentCollection": "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
-            "childCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57"
-        },
-        {
-            "name": "fk like_dislike_video.video_id to video._id",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                    "0356c507-6a67-4fc6-b9a4-e791f43f4f49"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "0134122d-1f2c-4a65-9ea6-a219d6910526",
-                    "daf8cbdd-b268-4f2c-b3ab-db0d18ca1151"
-                ]
-            ],
-            "childCardinality": "1",
-            "GUID": "88ee1037-0cc5-4b2e-9b69-55925a9a970a",
-            "parentCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-            "childCollection": "0134122d-1f2c-4a65-9ea6-a219d6910526"
-        },
-        {
-            "name": "fk like_dislike_video.usuari_id to usuari._id",
+            "name": "fk usuari.canales_suscrip.[0] to usuari.canal._id",
             "relationshipType": "Foreign Key",
             "parentField": [
                 [
                     "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                    "ef4823ab-a3ff-43c6-b8c7-cc1e1b5d42e8",
+                    "ad82cabf-71a9-4d30-8a00-490d71e72b2e"
                 ]
             ],
             "parentCardinality": "1",
             "childField": [
                 [
-                    "0134122d-1f2c-4a65-9ea6-a219d6910526",
-                    "88b6c732-5422-48f6-87fa-56d869a48d43"
+                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
+                    "05528978-0dc3-4698-8188-5c5ef8a66ba8",
+                    "608d8916-7385-4c68-90ef-5c347367e9e1"
                 ]
             ],
             "childCardinality": "1",
-            "GUID": "0dc32492-d724-49da-bf02-86f33f73e82a",
+            "GUID": "3f4ec016-0b7d-49be-b05d-08d6fc0a39c8",
             "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "0134122d-1f2c-4a65-9ea6-a219d6910526"
+            "childCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293"
         },
         {
-            "name": "fk playlist.usuari_id to usuari._id",
+            "name": "fk usuari.playlists.[0].lista_videos.[0] to usuari.videos.[0]._id",
             "relationshipType": "Foreign Key",
             "parentField": [
                 [
                     "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
+                    "61186ced-407f-46e4-8165-cdb535f07ce2",
+                    "07e62e7c-4f02-460d-bd28-0387a195bfbe",
+                    "37c57b55-f6f3-4448-b0b7-146ae92b4d8a"
                 ]
             ],
             "parentCardinality": "1",
             "childField": [
-                [
-                    "17137dba-4604-4781-9527-68052d28cd1c",
-                    "0b40f1e4-5ffe-4a75-b2b9-182f67f7f98c"
-                ]
-            ],
-            "childCardinality": "1",
-            "GUID": "9264efa2-70d2-4e9a-bce2-385af1a201fb",
-            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "17137dba-4604-4781-9527-68052d28cd1c"
-        },
-        {
-            "name": "fk suscriptors_canal.usuari_id to usuari._id",
-            "relationshipType": "Foreign Key",
-            "parentField": [
                 [
                     "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "21e2d2a4-475e-4811-917f-1f1471e41ffc",
-                    "a964c6c5-28c5-4e1a-b007-e536f20a9d8e"
+                    "41176143-c4d9-4196-8c4c-30743bed7180",
+                    "9bb2500d-0606-4097-8481-e969517ad610",
+                    "445cd6aa-ca45-4fc9-be9b-b26f7fb18489",
+                    "ff1aa64b-0751-49e1-9a70-b06226d12547"
                 ]
             ],
             "childCardinality": "1",
-            "GUID": "ba6b9e6a-7f37-498a-a980-3ebb28798b89",
+            "GUID": "3d551f42-8a8f-4b5d-954e-37c132add0c1",
             "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "21e2d2a4-475e-4811-917f-1f1471e41ffc"
-        },
-        {
-            "name": "fk suscriptors_canal.canal_id to canal._id",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
-                    "e4dfe1ab-c149-4865-a3c5-61422a79fe03"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "21e2d2a4-475e-4811-917f-1f1471e41ffc",
-                    "070d0737-cf56-490c-bc46-a23c2b529836"
-                ]
-            ],
-            "childCardinality": "1",
-            "GUID": "74f37545-8850-4502-b25d-f54a19ffe6ea",
-            "parentCollection": "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
-            "childCollection": "21e2d2a4-475e-4811-917f-1f1471e41ffc"
-        },
-        {
-            "name": "fk canal.usuari_id to usuari._id",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
-                    "71a31523-2df6-4a03-befe-be33a968c6ae"
-                ]
-            ],
-            "childCardinality": "1",
-            "GUID": "f787a266-c137-458a-8552-498000c797ad",
-            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f"
-        },
-        {
-            "name": "fk comentari.usuari_id to usuari._id",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-                    "ff78fb41-cc73-4481-b35d-70351aefdbc9"
-                ]
-            ],
-            "childCardinality": "1",
-            "GUID": "3f9640b2-53fc-4998-a031-a9e114f6d0d6",
-            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "be726dc0-0aed-4c99-9df1-ad31dfa82756"
-        },
-        {
-            "name": "fk comentari.video_id to video._id",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                    "0356c507-6a67-4fc6-b9a4-e791f43f4f49"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-                    "912272ca-24f5-4be4-90df-71c01211c15f"
-                ]
-            ],
-            "childCardinality": "1",
-            "GUID": "fa0bd588-daa4-489c-ac1d-07fe38544993",
-            "parentCollection": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-            "childCollection": "be726dc0-0aed-4c99-9df1-ad31dfa82756"
-        },
-        {
-            "name": "fk like_dislike_comentari.usuari_usuari_id to usuari._id",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "5c014738-8271-4324-acaf-2c1d2f5c8293",
-                    "79c47008-1fb4-4fd6-90c3-672747c8c95c"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "fc060c16-b123-4b88-8400-c611082e0e51",
-                    "fcaf5124-49ba-4c3c-9889-41892590761c"
-                ]
-            ],
-            "childCardinality": "1",
-            "GUID": "b60c9c83-081c-404f-bbe2-70a8f5e29376",
-            "parentCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293",
-            "childCollection": "fc060c16-b123-4b88-8400-c611082e0e51"
-        },
-        {
-            "name": "fk like_dislike_comentari.comentari_comentari_id to comentari.comentari_id",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-                    "1f6dae62-61a8-4530-9561-561304a30d75"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "fc060c16-b123-4b88-8400-c611082e0e51",
-                    "c441ba00-00e5-468f-89d5-81a9e50bb8d9"
-                ]
-            ],
-            "childCardinality": "1",
-            "GUID": "be21a62a-7664-435c-bddb-6435657c7105",
-            "parentCollection": "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-            "childCollection": "fc060c16-b123-4b88-8400-c611082e0e51"
+            "childCollection": "5c014738-8271-4324-acaf-2c1d2f5c8293"
         }
     ],
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
         "91bcc931-4589-4aed-b74f-1d3db4d4e084": "RE'd from DDL file",
-        "9b496532-3e7a-4c54-877b-e926c1c8e2c1": "youtubis",
+        "9b496532-3e7a-4c54-877b-e926c1c8e2c1": "youtube",
         "79c47008-1fb4-4fd6-90c3-672747c8c95c": "_id",
         "2747d3ab-f8af-4476-9704-57299bd70ae0": "email",
         "eb126896-2899-46d6-ba99-57b074807c08": "password",
@@ -1942,69 +848,49 @@
         "92f932b6-a9d7-41d3-a08c-74e6b81e595e": "pais",
         "ca52f3f8-c418-41d4-a4f0-3c7c454700ca": "codi_postal",
         "5c014738-8271-4324-acaf-2c1d2f5c8293": "usuari",
-        "0356c507-6a67-4fc6-b9a4-e791f43f4f49": "_id",
-        "b3905efe-5b2b-428d-90d4-81a8f1f7712e": "titol",
-        "396e9c47-2ab1-446a-8c30-2225f8bd01df": "descripcio",
-        "99dfa1ad-0652-4a5a-9e3b-57868d357d91": "grandaria",
-        "75f3cc84-74b4-46df-8885-bc1fcd28a45a": "nom_arxiu",
-        "b349082c-8560-4b6a-b5b9-3e4655003b98": "durada_video",
-        "947ca51f-85f0-4bbe-b9aa-5f1057072f19": "thumbnail_url",
-        "bf4cbbd6-43ea-4980-a545-3a874f996190": "num_reproduccions",
-        "90f77dab-f151-4671-ac3a-bd1861baae0f": "num_likes",
-        "1330309b-6a81-42b0-8957-c778209e388c": "num_dislikes",
-        "c89e341c-3fae-4f78-b4b4-96e4ddae50c8": "estats",
-        "a411a99f-30d2-426a-bcc4-93fe535cceac": "data_publicacio",
-        "ff5a874c-2f2c-4000-88b3-de088b93fd14": "usuari_id",
-        "81e786ca-a3ad-4777-9a00-7bcc53625c57": "video",
-        "c30ead7a-3538-478c-904e-d018c003539e": "_id",
-        "7b7f4b96-f108-484f-8426-79c69d66bdda": "nom",
-        "bc67569a-ac63-4f9c-a0ad-511b0fc8196c": "video_etiqueta",
-        "e4dfe1ab-c149-4865-a3c5-61422a79fe03": "_id",
-        "60b453f9-e63a-453d-8b76-b05c1b86fde1": "nom",
-        "44da6283-1676-402e-b50e-e115d63efbfd": "descripcio",
-        "b6afffae-90a2-45dc-887a-bfb3d2a6cae0": "data_creacio",
-        "71a31523-2df6-4a03-befe-be33a968c6ae": "usuari_id",
-        "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f": "canal",
-        "a964c6c5-28c5-4e1a-b007-e536f20a9d8e": "usuari_id",
-        "070d0737-cf56-490c-bc46-a23c2b529836": "canal_id",
-        "21e2d2a4-475e-4811-917f-1f1471e41ffc": "suscriptors_canal",
-        "88b6c732-5422-48f6-87fa-56d869a48d43": "usuari_id",
-        "daf8cbdd-b268-4f2c-b3ab-db0d18ca1151": "video_id",
-        "4c714652-806c-4158-99dd-3e798ac56c08": "value",
-        "bafb25eb-8b24-4d3a-b22a-7ee1b77387e9": "data",
-        "0134122d-1f2c-4a65-9ea6-a219d6910526": "like_dislike_video",
-        "d3cc71d5-85b6-4e51-b971-c93c453c729a": "_id",
-        "e7075d1d-6895-49ec-abdc-65ec3688b54b": "nom",
-        "7f56d288-e9c6-4e8a-8ce2-6ea2954c6877": "data_creacio",
-        "a0934c33-c1eb-4f87-b1d7-98be90c17f6e": "estat",
-        "0b40f1e4-5ffe-4a75-b2b9-182f67f7f98c": "usuari_id",
-        "17137dba-4604-4781-9527-68052d28cd1c": "playlist",
-        "1f6dae62-61a8-4530-9561-561304a30d75": "_id",
-        "ff78fb41-cc73-4481-b35d-70351aefdbc9": "usuari_id",
-        "912272ca-24f5-4be4-90df-71c01211c15f": "video_id",
-        "08b52a9e-54e5-4593-8013-12a4f4347934": "text",
-        "855629a3-3aa6-47cc-b41a-fee232ec68f9": "data_creacio",
-        "be726dc0-0aed-4c99-9df1-ad31dfa82756": "comentari",
-        "fcaf5124-49ba-4c3c-9889-41892590761c": "usuari_id",
-        "c441ba00-00e5-468f-89d5-81a9e50bb8d9": "comentari_id",
-        "b273df38-e375-436f-9b49-c2234311eca0": "value",
-        "c908fd44-47c7-414b-b53d-8b71359a553a": "data",
-        "fc060c16-b123-4b88-8400-c611082e0e51": "like_dislike_comentari",
-        "75b21390-4560-4705-a4c3-22eefcf4713c": "etiquetas",
-        "f9ee5307-28ae-4c8b-a5ee-183ad6bbf553": "videos",
-        "90509f4a-45a5-468b-b1d9-0ec0d47b480a": "fk playlist.videos.[0] to video._id",
-        "274c12a3-222f-4112-97ac-1047dda85eef": "fk video.usuari_id to usuari._id",
-        "1366b6d7-4899-41c6-be42-219e38ff034d": "fk video.etiquetas.[0] to video_etiqueta._id",
-        "88ee1037-0cc5-4b2e-9b69-55925a9a970a": "fk like_dislike_video.video_id to video._id",
-        "0dc32492-d724-49da-bf02-86f33f73e82a": "fk like_dislike_video.usuari_id to usuari._id",
-        "9264efa2-70d2-4e9a-bce2-385af1a201fb": "fk playlist.usuari_id to usuari._id",
-        "ba6b9e6a-7f37-498a-a980-3ebb28798b89": "fk suscriptors_canal.usuari_id to usuari._id",
-        "74f37545-8850-4502-b25d-f54a19ffe6ea": "fk suscriptors_canal.canal_id to canal._id",
-        "f787a266-c137-458a-8552-498000c797ad": "fk canal.usuari_id to usuari._id",
-        "3f9640b2-53fc-4998-a031-a9e114f6d0d6": "fk comentari.usuari_id to usuari._id",
-        "fa0bd588-daa4-489c-ac1d-07fe38544993": "fk comentari.video_id to video._id",
-        "b60c9c83-081c-404f-bbe2-70a8f5e29376": "fk like_dislike_comentari.usuari_usuari_id to usuari._id",
-        "be21a62a-7664-435c-bddb-6435657c7105": "fk like_dislike_comentari.comentari_comentari_id to comentari.comentari_id"
+        "61186ced-407f-46e4-8165-cdb535f07ce2": "videos",
+        "37c57b55-f6f3-4448-b0b7-146ae92b4d8a": "_id",
+        "5bdcca49-8624-4963-9b22-ca4c9065b509": "nom",
+        "4c6f46cd-7ffc-4e98-821a-d054b9f052c7": "descripcio",
+        "b6c8ca92-db9e-4dd7-b6e2-34194e3f7354": "grandaria",
+        "574515f4-1eb5-4831-a118-cf059fd174b9": "nom_arxiu",
+        "229a9043-3ead-4553-a638-537b8dc19d62": "durada",
+        "098111e4-5672-4a27-8df5-cc03cb9e8349": "thumbnail",
+        "741e443f-f5a6-4a09-b64a-df186ed32a90": "nombre_reproducio",
+        "8e6d3a13-8853-42b1-9262-cc87ef2e44b5": "nombre_likes",
+        "290cdd94-6a11-4903-a34d-d427e0503698": "nombre_dislikes",
+        "6a31d010-e5bd-4e45-a3a3-b8ae55123418": "estat",
+        "6fb193f2-2058-479a-97c9-c6ea2f0ecd1e": "etiquetes",
+        "23718ecc-cbd4-470c-9e98-6c18b5ed9e74": "_id",
+        "10b67cfd-8769-40c0-afd3-6e2d4853e8ba": "nom",
+        "8a560c58-338b-4aa3-be51-e559a67d9916": "data_publicacio",
+        "79925780-9e93-4e4c-a6df-8a859fe4b054": "lista_likes",
+        "a84d76af-8f71-4e8e-af2e-2256fc7ee25c": "usuari_id",
+        "e4cab12c-fde4-42e4-99de-ff31afc30ece": "fk usuari.videos.[0].lista_likes.[0].usuari_id to usuari._id",
+        "06fe3404-93b1-4763-a95e-222faf4d6f19": "value",
+        "99d51fe4-0a56-4ba5-b6bf-2e1df755a428": "data",
+        "6d92c80f-2cfd-47e1-9b37-0ba999524ae5": "comentaris",
+        "2640163a-ecc9-43d4-b227-cf00c373fc44": "_id",
+        "6b817594-9d5a-4204-93c5-49f7228c8e09": "text",
+        "5749d758-3bf7-4dd9-a89f-3ebc0925045c": "data",
+        "82cb1e47-b85e-498d-bf36-be7c823c9b57": "lista_likes",
+        "3e861a84-e16b-448c-9a7f-2e5e6274c93f": "usuari_id",
+        "0ca75d78-560c-4973-8715-b350a1b0d64f": "value",
+        "6d2fddef-0c4a-4263-9cb6-52af69355364": "data",
+        "ef4823ab-a3ff-43c6-b8c7-cc1e1b5d42e8": "canal",
+        "ad82cabf-71a9-4d30-8a00-490d71e72b2e": "_id",
+        "7087fcdb-64ec-4c1d-b9f6-f77849b3ed8b": "nom",
+        "6eb29d51-24e8-4e47-9384-06f4e669612f": "descripcio",
+        "167b3c8d-04a2-4c88-a6f2-925bf0e4ac64": "data_creacio",
+        "05528978-0dc3-4698-8188-5c5ef8a66ba8": "canales_suscrip",
+        "3f4ec016-0b7d-49be-b05d-08d6fc0a39c8": "fk usuari.canales_suscrip.[0] to usuari.canal._id",
+        "41176143-c4d9-4196-8c4c-30743bed7180": "playlists",
+        "b53decab-cd58-4054-a36e-1b181a81f27f": "_id",
+        "e4cb74ae-fee6-4dc9-8461-9bcf4b1b02e6": "nom",
+        "41e27568-557e-4a0e-bfd3-221752ed7c7a": "data_creacio",
+        "a354e8e9-8566-4c7b-a36d-80651d54528a": "estat",
+        "445cd6aa-ca45-4fc9-be9b-b26f7fb18489": "lista_videos",
+        "3d551f42-8a8f-4b5d-954e-37c132add0c1": "fk usuari.playlists.[0].lista_videos.[0] to usuari.videos.[0]._id"
     },
     "definitions": {
         "type": "definitions",
@@ -2042,7 +928,7 @@
         "validationErrors": {}
     },
     "code": "",
-    "lastModifTS": "2022-09-29T03:38:32.440Z",
+    "lastModifTS": "2022-10-06T10:16:47.744Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -2059,79 +945,15 @@
                         "GUID": "5c014738-8271-4324-acaf-2c1d2f5c8293",
                         "x": 474,
                         "y": 382,
-                        "width": 243,
-                        "height": 177,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "81e786ca-a3ad-4777-9a00-7bcc53625c57",
-                        "x": 80,
-                        "y": 750,
-                        "width": 289,
-                        "height": 303,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "bc67569a-ac63-4f9c-a0ad-511b0fc8196c",
-                        "x": 457,
-                        "y": 983,
-                        "width": 205,
-                        "height": 69,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "e4a21dc6-00e9-48cc-94d7-a6b6c3be468f",
-                        "x": 806,
-                        "y": 299,
-                        "width": 224,
-                        "height": 123,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "21e2d2a4-475e-4811-917f-1f1471e41ffc",
-                        "x": 803,
-                        "y": 557,
-                        "width": 219,
-                        "height": 69,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "0134122d-1f2c-4a65-9ea6-a219d6910526",
-                        "x": 506,
-                        "y": 745,
-                        "width": 218,
-                        "height": 105,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "17137dba-4604-4781-9527-68052d28cd1c",
-                        "x": 740,
-                        "y": 788,
-                        "width": 237,
-                        "height": 159,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "be726dc0-0aed-4c99-9df1-ad31dfa82756",
-                        "x": 105,
-                        "y": 497,
-                        "width": 224,
-                        "height": 123,
-                        "color": {}
-                    },
-                    {
-                        "GUID": "fc060c16-b123-4b88-8400-c611082e0e51",
-                        "x": 98,
-                        "y": 317,
-                        "width": 245,
-                        "height": 105,
+                        "width": 324,
+                        "height": 1041,
                         "color": {}
                     }
                 ],
                 "buckets": [
                     {
-                        "x": 40,
-                        "y": 259,
+                        "x": 434,
+                        "y": 342,
                         "GUID": "9b496532-3e7a-4c54-877b-e926c1c8e2c1"
                     }
                 ],
